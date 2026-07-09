@@ -8,12 +8,13 @@ format:
 
 ## ReModel aims
 
-Aims go here. The below, in nicer words. Something about wider analytical context
+Building a simulation model from scratch is a time-consuming and resource-intensive process. ReModel aims to make it easier for healthcare analysts to read, run, and reuse existing open simulation models. We recognise that within healthcare there is a potential to reuse exisitng models because many of the problems faced by healthcare systems are similar as are many of the pathways experienced by patients. ReModel is a project that aims to make it easier to read, run, and reuse open simulation models.
 
-Help people within the NHS:
+Our goal is to empower people within the NHS to:
 
 - run open source simulation models on their own machines
 - critique/assess/evaluate simulation models with their pros and cons
+- repurpose existing simulation models for their own use cases
 
 ## How does ReModel work?
 
@@ -25,5 +26,5 @@ Help people within the NHS:
 
 ## How we are funded
 
-Info about SCIC?
+ReModel has been funded in 25/26 as part of the national Strategic Commissioning Intelligence Centre (SCIC).  
 
