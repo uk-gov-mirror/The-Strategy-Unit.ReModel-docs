@@ -5,4 +5,10 @@ format:
     toc: true
 ---
 
-Code of conduct goes here
+Community rules:
+
+1. Be respectful: Treat all participants with respect and kindness. Harassment, discrimination, or any form of abusive behavior will not be tolerated.
+2. Camera and microphone etiquette: When participating in video calls, ensure your camera and microphone are used appropriately. Mute your microphone when not speaking to minimize background noise. We ask that you keep your camera on during sessions to foster a more engaging and interactive environment, but we understand that there may be circumstances where this is not possible.
+3. Stay on topic: Keep discussions relevant to the purpose of the community. Off-topic conversations should be taken to private messages.
+4. Share knowledge: Contribute your expertise and insights to help others. Be open to learning from others as well.
+5. Report issues: If you encounter any problems or witness rule violations, report them to the moderators.

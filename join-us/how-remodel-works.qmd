@@ -5,8 +5,12 @@ format:
     toc: true
 ---
 
-How the sessions will run - each model exploration will run for two months, with one session per month. How long are the sessions? What technical requirements?
+ReModel will run in 2 monthly cycles, with each cycle focusing on a different simulation model. Each cycle will consist of two sessions: an exploratory session and a technical session.
 
-One technical session, one exploratory session
+Session 1: Exploratory session - this session will be an opportunity to explore the model, understand its structure and assumptions, and discuss potential use cases. Participants will be encouraged to ask questions and share their insights.
 
-Cost
+Session 2: Technical session - this session will focus on the technical aspects of the model, including its implementation, data requirements, and potential challenges. Participants will have the opportunity to work with the model and gain hands-on experience.
+
+Each session will last for 1 hour, and will follow a participative discussion format.
+
+Cost: All sessions are free for NHS participants.

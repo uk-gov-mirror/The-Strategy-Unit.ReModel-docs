@@ -1,0 +1,20 @@
+---
+title: "The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study"
+subtitle: "Session 1 [27th Jan 2027]: Technical Setup"
+author: Dr Lucy Morgan
+date: "2026-06-26"
+categories: [DES]
+toc: true
+---
+
+# Session 1: 27th Jan 2027
+
+Lorem ipsum
+
+## Session objectives and outline
+
+## Actions for participants before the session
+
+## Additional resources
+
+# Session 2: 24th Feb 2027

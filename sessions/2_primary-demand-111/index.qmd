@@ -1,13 +1,13 @@
 ---
-title: "Nonelective Flow DES Model"
-subtitle: "Session 1 [30th Sept 2026]]: Technical Setup"
+title: "Meeting the demand of 111 for primary care services"
+subtitle: "Session 1 [25th Nov 2026]]: Technical Setup"
 author: Dr Lucy Morgan
 date: "2026-06-26"
 categories: [DES]
 toc: true
 ---
 
-# Session 1: 30th Sept 2026
+# Session 1: 25th Nov 2026
 
 Lorem ipsum
 
@@ -17,4 +17,4 @@ Lorem ipsum
 
 ## Additional resources
 
-# Session 2: 28th Oct 2026
+# Session 2: 6th Jan 2027
