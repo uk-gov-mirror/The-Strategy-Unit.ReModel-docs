@@ -4,14 +4,21 @@
     "href": "index.html",
     "title": "ReModel",
     "section": "",
-    "text": "This is the website for ReModel: Read, Run, Reuse Open Simulation Models, hosted by the Strategy Unit.\nInformation about this project will be hosted here.\nNOTE: THIS IS STILL DRAFT AND A WORK IN PROGRESS\nFind out more about taking part and take a look at previous and upcoming sessions."
+    "text": "This is the website for ReModel - a club for healthcare simulation enthusiasts to meet and engage in reusing open simulation models.\nOur mantra when it comes to healthcare simulation is Read, Run, Reuse.\nThere is already a wealth of simulation models that are not being used to their full potential. ReModel is a project that aims to change this by making it easier to read, run, and reuse open simulation models.\nIf you are a healthcare analyst with an interest in simulation, or a simulation modeller who wants to learn how to better share your work, then ReModel is for you.\nThis website is a hub for ReModel activities. ReModel is hosted by the Strategy Unit.\nFind out more about taking part and take a look at previous and upcoming sessions.\nNOTE: THIS IS STILL DRAFT AND A WORK IN PROGRESS"
   },
   {
     "objectID": "sessions/index.html",
     "href": "sessions/index.html",
     "title": "ReModel sessions",
     "section": "",
-    "text": "Nonelective Flow DES Model\n\n\nSession 1 [DATEHERE]: Technical Setup\n\n\n\nDES\n\n\n\n\n\n\n\n\n\nJun 26, 2026\n\n\nDr Lucy Morgan\n\n\n\n\n\nNo matching items"
+    "text": "Meeting the demand of 111 for primary care services\n\n\nSession 1 [25th Nov 2026]]: Technical Setup\n\n\n\nDES\n\n\n\n\n\n\n\n\n\nJun 26, 2026\n\n\nDr Lucy Morgan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study\n\n\nSession 1 [27th Jan 2027]: Technical Setup\n\n\n\nDES\n\n\n\n\n\n\n\n\n\nJun 26, 2026\n\n\nDr Lucy Morgan\n\n\n\n\n\n\n\n\n\n\n\n\nNonelective Flow DES Model\n\n\nSession 1 [30th Sept 2026]]: Technical Setup\n\n\n\nDES\n\n\n\n\n\n\n\n\n\nJun 26, 2026\n\n\nDr Lucy Morgan\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "sessions/2_primary-demand-111/index.html",
+    "href": "sessions/2_primary-demand-111/index.html",
+    "title": "Meeting the demand of 111 for primary care services",
+    "section": "",
+    "text": "Lorem ipsum"
   },
   {
     "objectID": "join-us/index.html",
@@ -29,7 +36,7 @@
     "href": "join-us/code-of-conduct.html",
     "title": "Code of Conduct",
     "section": "",
-    "text": "Code of conduct goes here",
+    "text": "Community rules:\n\nBe respectful: Treat all participants with respect and kindness. Harassment, discrimination, or any form of abusive behavior will not be tolerated.\nCamera and microphone etiquette: When participating in video calls, ensure your camera and microphone are used appropriately. Mute your microphone when not speaking to minimize background noise. We ask that you keep your camera on during sessions to foster a more engaging and interactive environment, but we understand that there may be circumstances where this is not possible.\nStay on topic: Keep discussions relevant to the purpose of the community. Off-topic conversations should be taken to private messages.\nShare knowledge: Contribute your expertise and insights to help others. Be open to learning from others as well.\nReport issues: If you encounter any problems or witness rule violations, report them to the moderators.",
     "crumbs": [
       "Join us",
       "Code of Conduct"
@@ -40,7 +47,7 @@
     "href": "join-us/how-remodel-works.html",
     "title": "How ReModel Works",
     "section": "",
-    "text": "How the sessions will run - each model exploration will run for two months, with one session per month. How long are the sessions? What technical requirements?\nOne technical session, one exploratory session\nCost",
+    "text": "ReModel will run in 2 monthly cycles, with each cycle focusing on a different simulation model. Each cycle will consist of two sessions: an exploratory session and a technical session.\nSession 1: Exploratory session - this session will be an opportunity to explore the model, understand its structure and assumptions, and discuss potential use cases. Participants will be encouraged to ask questions and share their insights.\nSession 2: Technical session - this session will focus on the technical aspects of the model, including its implementation, data requirements, and potential challenges. Participants will have the opportunity to work with the model and gain hands-on experience.\nEach session will last for 1 hour, and will follow a participative discussion format.\nCost: All sessions are free for NHS participants.",
     "crumbs": [
       "Join us",
       "How ReModel Works"
@@ -51,14 +58,14 @@
     "href": "about.html",
     "title": "About ReModel",
     "section": "",
-    "text": "Aims go here. The below, in nicer words. Something about wider analytical context\nHelp people within the NHS:\n\nrun open source simulation models on their own machines\ncritique/assess/evaluate simulation models with their pros and cons"
+    "text": "Building a simulation model from scratch is a time-consuming and resource-intensive process. ReModel aims to make it easier for healthcare analysts to read, run, and reuse existing open simulation models. We recognise that within healthcare there is a potential to reuse existing models because many of the problems faced by healthcare systems are similar as are many of the pathways experienced by patients. ReModel is a project that aims to make it easier to read, run, and reuse open simulation models.\nOur goal is to empower people within the NHS to:\n\nrun open source simulation models on their own machines\ncritique/assess/evaluate simulation models with their pros and cons\nrepurpose existing simulation models for their own use cases"
   },
   {
     "objectID": "about.html#remodel-aims",
     "href": "about.html#remodel-aims",
     "title": "About ReModel",
     "section": "",
-    "text": "Aims go here. The below, in nicer words. Something about wider analytical context\nHelp people within the NHS:\n\nrun open source simulation models on their own machines\ncritique/assess/evaluate simulation models with their pros and cons"
+    "text": "Building a simulation model from scratch is a time-consuming and resource-intensive process. ReModel aims to make it easier for healthcare analysts to read, run, and reuse existing open simulation models. We recognise that within healthcare there is a potential to reuse existing models because many of the problems faced by healthcare systems are similar as are many of the pathways experienced by patients. ReModel is a project that aims to make it easier to read, run, and reuse open simulation models.\nOur goal is to empower people within the NHS to:\n\nrun open source simulation models on their own machines\ncritique/assess/evaluate simulation models with their pros and cons\nrepurpose existing simulation models for their own use cases"
   },
   {
     "objectID": "about.html#how-does-remodel-work",
@@ -79,7 +86,14 @@
     "href": "about.html#how-we-are-funded",
     "title": "About ReModel",
     "section": "How we are funded",
-    "text": "How we are funded\nInfo about SCIC?"
+    "text": "How we are funded\nReModel has been funded in 25/26 as part of the national Strategic Commissioning Intelligence Centre (SCIC)."
+  },
+  {
+    "objectID": "sessions/3_triage-during-intense-demand/index.html",
+    "href": "sessions/3_triage-during-intense-demand/index.html",
+    "title": "The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study",
+    "section": "",
+    "text": "Lorem ipsum"
   },
   {
     "objectID": "sessions/1_nonelective-flow/index.html",
