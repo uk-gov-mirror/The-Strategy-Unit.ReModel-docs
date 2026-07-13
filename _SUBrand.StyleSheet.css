@@ -180,3 +180,16 @@ a:hover {
 .dark .TableOfContents a:hover {
   color: var(--su-blue);
 }
+
+/* Keep category labels legible on blue title banners. */
+#title-block-header .quarto-title-banner .quarto-categories .quarto-category,
+#title-block-header .quarto-title-banner .quarto-categories .quarto-category a {
+  color: var(--su-white) !important;
+}
+
+#title-block-header .quarto-title-banner .quarto-categories .quarto-category:hover,
+#title-block-header .quarto-title-banner .quarto-categories .quarto-category:focus-visible,
+#title-block-header .quarto-title-banner .quarto-categories .quarto-category a:hover,
+#title-block-header .quarto-title-banner .quarto-categories .quarto-category a:focus-visible {
+  color: var(--su-charcoal) !important;
+}

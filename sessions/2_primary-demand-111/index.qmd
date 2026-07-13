@@ -1,20 +1,74 @@
 ---
 title: "Meeting the demand of 111 for primary care services"
-subtitle: "Session 1 [25th Nov 2026]]: Technical Setup"
+subtitle: "1. Running: 25th Nov 2026<br>2. Reusing: 6th Jan 2027"
 author: Dr Lucy Morgan
 date: "2026-06-26"
 categories: [DES]
 toc: true
 ---
 
-# Session 1: 25th Nov 2026
+# Model overview
 
-Lorem ipsum
+**MOOOD** is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.
+
+The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.
+
+# Session 1: Running - 25th Nov 2026
 
 ## Session objectives and outline
 
+This session will focus on obtaining the code and running the existing analysis. Participants will:
+
+- clone the GitHub repository and identify the main execution and documentation files;
+- create the Python environment and install the required dependencies;
+- run the model and, where appropriate, its interactive application;
+- reproduce an existing scenario and compare its behaviour with the published paper; and
+- explore the current inputs and outputs while accounting for stochastic variation.
+
+The aim is for participants to leave with a local copy of the repository, a working environment and a successful model run that they can continue to explore.
+
 ## Actions for participants before the session
+
+- Bring a laptop on which you can use GitHub and install or run Python.
+- Clone or download the [MOOOD repository](https://github.com/RichardPilbery/MOOOD-study).
+- Follow the [generated documentation](https://richardpilbery.github.io/MOOOD-study/) and repository setup instructions as far as you can.
+- Read the abstract and strengths and limitations in the [BMJ Open paper](https://bmjopen.bmj.com/content/13/9/e076203).
 
 ## Additional resources
 
-# Session 2: 6th Jan 2027
+- [GitHub repository](https://github.com/RichardPilbery/MOOOD-study) — model, application, tests, data and container configuration.
+- [Generated technical documentation](https://richardpilbery.github.io/MOOOD-study/) — documentation for the codebase.
+- [BMJ Open paper](https://bmjopen.bmj.com/content/13/9/e076203) — peer-reviewed methods, results and limitations.
+- [Full text in PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC10496671/) — alternative open-access version of the paper.
+
+# Session 2: Reusing - 6th Jan 2027
+
+## Session objectives and outline
+
+This session will consider whether participants understand the model well enough to reuse it. Participants will:
+
+- describe how they think the model is structured from input data through to outputs;
+- compare that understanding with the repository and SimPy implementation;
+- identify how patients, events, services and onward contacts are represented;
+- locate the assumptions controlling demand, pathways and service contact;
+- discuss what they would change for a different question, population or service;
+- trace a selected input assumption through the model to its effect on results; and
+- identify how a change would need to be tested, validated and documented.
+
+The aim is for participants to be able to identify an input or pathway assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.
+
+## Actions for participants before the session
+
+- Retain the working environment and editable repository from Session 1.
+- If you did not attend Session 1, confirm that you can complete a model run before this session.
+- Consider one input, pathway or service assumption you would change for your own analytical question.
+
+## Additional resources
+
+- [GitHub repository](https://github.com/RichardPilbery/MOOOD-study) — source code, tests and configuration.
+- [HSMA project page](https://hsma.co.uk/previous_projects/hsma_4/h4_4008_meeting_demand_111/index.html) — project background and supporting material.
+- [Healthcare Service Analytics & Decision Intelligence Atlas review](https://atlas.hsma.co.uk/packages_projects_tools/meeting_the_demand_of_111/) — assessment of documentation, testing, reproducibility and deployment.
+- [University of Plymouth research record](https://researchportal.plymouth.ac.uk/en/publications/modelling-nhs-england-111-demand-for-primary-care-services-a-disc/) — publication details and related outputs.
+- [Supporting observational study](https://doi.org/10.1371/journal.pone.0300193) — analysis of NHS 111 demand for primary-care services.
+
+Reuse elsewhere will require local review and validation of the demand, capacity, pathway and behavioural assumptions.

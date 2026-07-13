@@ -1,20 +1,70 @@
 ---
 title: "Nonelective Flow DES Model"
-subtitle: "Session 1 [30th Sept 2026]]: Technical Setup"
+subtitle: "1. Running: 30th Sept 2026<br>2. Reusing: 28th Oct 2026"
 author: Dr Lucy Morgan
 date: "2026-06-26"
 categories: [DES]
 toc: true
 ---
 
-# Session 1: 30th Sept 2026
+# Model overview
 
-Lorem ipsum
+The **Non-Elective Flow Simulation** is an open-source discrete-event simulation developed by Helena Robinson at Countess of Chester Hospital NHS Foundation Trust. It represents patients moving from the emergency department into SDEC or an inpatient bed and explores how bed capacity, admitted length of stay and SDEC activity affect queues and waiting times. The model is written in Python using SimPy and includes a Streamlit interface.
+
+# Session 1: Running - 30th Sept 2026
 
 ## Session objectives and outline
 
+This session will focus on obtaining the code and running the model as it currently exists. Participants will:
+
+- clone the GitHub repository and identify the files needed to get started;
+- create the supplied Python environment and install the dependencies;
+- start the Streamlit application and run the simulation;
+- reproduce an existing scenario and check that the run has completed as expected; and
+- explore the existing controls and interpret the principal outputs.
+
+The aim is for participants to leave with a local copy of the repository, a working environment and a successful model run that they can continue to explore.
+
 ## Actions for participants before the session
+
+- Bring a laptop on which you can use GitHub and install or run Python.
+- Clone or download the [model repository](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation).
+- Follow the repository's current environment instructions as far as you can. Make a note of any errors so these can be discussed during the session.
+- If time allows, try the browser-based [Streamlit application](https://non-elective-flow-simulation-coch.streamlit.app/).
 
 ## Additional resources
 
-# Session 2: 28th Oct 2026
+- [GitHub repository](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation) — model code, application and environment files.
+- [Interactive Streamlit application](https://non-elective-flow-simulation-coch.streamlit.app/) — run scenarios without a local installation.
+- [HSMA project overview](https://hsma.co.uk/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html) — project background and links to the code, application and presentation material.
+
+# Session 2: Reusing - 28th Oct 2026
+
+## Session objectives and outline
+
+This session will consider whether participants understand the model well enough to reuse it. Participants will:
+
+- describe how they think the model is structured from inputs through to outputs;
+- compare that understanding with the repository and SimPy implementation;
+- identify how patients, queues, resources and events are represented;
+- locate assumptions for arrivals, length of stay, capacity and SDEC activity;
+- discuss what they would change for a different question, service or local setting;
+- trace a selected input assumption through the model to its effect on outputs; and
+- identify how a change would need to be tested, validated and documented.
+
+The aim is for participants to be able to identify an input assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.
+
+## Actions for participants before the session
+
+- Retain the working environment and editable repository from Session 1.
+- If you did not attend Session 1, confirm that you can complete a model run before this session.
+- Consider one assumption or feature you would change for your own service or analytical question.
+
+## Additional resources
+
+- [GitHub repository](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation) — source code and repository documentation.
+- [Project presentation slides](https://drive.google.com/file/d/1BIUDaDfDp2cj6EF19908XQ4eB7h9GMCp/view) — background to the model and its intended use.
+- [HSMA showcase presentation](https://youtu.be/0DUx5hhxjoA) — recorded project presentation.
+- [Vidigi paper](https://doi.org/10.1080/17477778.2026.2663849) — related work on animated visualisation of discrete-event simulation models, using this model as an application example.
+
+The project is documented through its repository and HSMA materials. We are not currently aware of a dedicated peer-reviewed paper or independent reproduction of this specific model.

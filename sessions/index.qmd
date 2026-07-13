@@ -4,8 +4,10 @@ listing:
   sort: "date desc"
   type: default
   categories: true
+  fields: [date, author, title, subtitle, categories, description]
   sort-ui: false
   filter-ui: false
+  max-description-length: 1000
   feed: true
 page-layout: full
 ---
