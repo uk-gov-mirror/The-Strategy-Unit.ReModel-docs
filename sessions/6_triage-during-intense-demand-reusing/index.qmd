@@ -1,0 +1,39 @@
+---
+title: "The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study: Reusing"
+author: Dr Lucy Morgan
+date: "2027-02-24"
+categories: [DES]
+toc: true
+---
+
+# Model overview
+
+This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.
+
+## Session objectives and outline
+
+This session will consider whether participants understand the model well enough to reuse it. Participants will:
+
+- describe how they think the model is structured from patient inputs through to reported outcomes;
+- compare that understanding with the R scripts and simulation implementation;
+- identify how arrivals, length of stay, capacity and triage rules are represented;
+- locate the data and assumptions controlling the supplied scenarios;
+- discuss what they would change for a different question or use case;
+- trace a selected input assumption through the code to a published output; and
+- use the reproduction evidence to identify how a change should be checked, validated and documented.
+
+The aim is for participants to be able to identify an assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.
+
+## Actions for participants before the session
+
+- Retain the working R environment and editable repository from Session 1.
+- If you did not attend Session 1, confirm that you can complete the selected model run before this session.
+- Consider one input, rule or scenario you would change and why the change would be analytically useful.
+
+## Additional resources
+
+- [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/) — methods, reporting assessment, validation discussion and reproducibility log.
+- [STARS reproduction repository](https://github.com/pythonhealthdatascience/stars-reproduce-wood-2021) — independently recreated code and supporting material.
+- [Archived reproduction](https://doi.org/10.5281/zenodo.13881986) — citable snapshot of the reproducibility assessment.
+- [Reproduction protocol](https://doi.org/10.5281/zenodo.12179846) — protocol used to structure the assessment.
+- [Reproducibility study](https://doi.org/10.1080/17477778.2025.2552177) — related peer-reviewed study of discrete-event simulation reproducibility.

@@ -36,7 +36,9 @@ format:
   html:
     theme:
       - brand
-    css: _SUBrand.StyleSheet.css
+    css:
+      - _SUBrand.StyleSheet.css
+      - _listing.css
 
 execute:
   freeze: auto

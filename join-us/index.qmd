@@ -5,4 +5,25 @@ format:
     toc: true
 ---
 
-Links to registration pages for each of the ReModel sessions goes here
+You can sign up for one, several or all ReModel cycles. Each cycle focuses on one open simulation model and includes two linked sessions: **Running** and **Reusing**. Registration for a cycle covers both sessions in that cycle.
+
+## Cycle 1: Non-Elective Flow Simulation
+
+- **Running the model:** 30 September 2026
+- **Reusing the model:** 28 October 2026
+
+[Sign up for Cycle 1]({{< var registration_forms.cycle_1 >}}){.btn .btn-primary target="_blank"}
+
+## Cycle 2: Meeting the demand of NHS 111 for primary care services
+
+- **Running the model:** 25 November 2026
+- **Reusing the model:** 6 January 2027
+
+[Sign up for Cycle 2]({{< var registration_forms.cycle_2 >}}){.btn .btn-primary target="_blank"}
+
+## Cycle 3: The Value of Triage during Periods of Intense COVID-19 Demand
+
+- **Running the model:** 27 January 2027
+- **Reusing the model:** 24 February 2027
+
+[Sign up for Cycle 3]({{< var registration_forms.cycle_3 >}}){.btn .btn-primary target="_blank"}
