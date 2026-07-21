@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr Lucy Morgan">
+<meta name="dcterms.date" content="2026-10-28">
 
-<title>ReModel – ReModel: Read, Run, Reuse Open Simulation Models</title>
+<title>Nonelective Flow DES Model: Reusing – ReModel: Read, Run, Reuse Open Simulation Models</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,28 +28,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo_black_favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-93b77a0fa887f0ac426e36b668c902ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3ace969288f64bd00fb6a5426994f16d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-93b77a0fa887f0ac426e36b668c902ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo_black_favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-93b77a0fa887f0ac426e36b668c902ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-3ace969288f64bd00fb6a5426994f16d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-93b77a0fa887f0ac426e36b668c902ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,8 +79,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="_SUBrand.StyleSheet.css">
-<link rel="stylesheet" href="_listing.css">
+<link rel="stylesheet" href="../../_SUBrand.StyleSheet.css">
+<link rel="stylesheet" href="../../_listing.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -246,15 +248,15 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo_black_favicon.png" alt="" class="navbar-logo light-content">
-    <img src="./images/logo_black_favicon.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo_black_favicon.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/logo_black_favicon.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ReModel: Read, Run, Reuse Open Simulation Models</span>
     </a>
   </div>
@@ -265,21 +267,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./join-us/index.html"> 
+    <a class="nav-link" href="../../join-us/index.html"> 
 <span class="menu-text">Join us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sessions/index.html"> 
+    <a class="nav-link" href="../../sessions/index.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="./sessions/index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../sessions/index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -302,7 +304,38 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Nonelective Flow DES Model: Reusing</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">DES</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Dr Lucy Morgan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 28, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -310,52 +343,60 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cycle-1-non-elective-flow-simulation" id="toc-cycle-1-non-elective-flow-simulation" class="nav-link active" data-scroll-target="#cycle-1-non-elective-flow-simulation">Cycle 1: Non-Elective Flow Simulation</a></li>
+  <li><a href="#model-overview" id="toc-model-overview" class="nav-link active" data-scroll-target="#model-overview">Model overview</a>
+  <ul class="collapse">
+  <li><a href="#session-objectives-and-outline" id="toc-session-objectives-and-outline" class="nav-link" data-scroll-target="#session-objectives-and-outline">Session objectives and outline</a></li>
+  <li><a href="#actions-for-participants-before-the-session" id="toc-actions-for-participants-before-the-session" class="nav-link" data-scroll-target="#actions-for-participants-before-the-session">Actions for participants before the session</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional resources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">ReModel</h1>
-<p class="subtitle lead">Read, Run, Reuse Open Simulation Models</p>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
 
-
-<p>This is the website for ReModel - a club for healthcare simulation enthusiasts to meet and engage in reusing open simulation models.</p>
-<p>Our mantra when it comes to healthcare simulation is Read, Run, Reuse.</p>
-<p>There is already a wealth of simulation models that are not being used to their full potential. ReModel is a project that aims to change this by making it easier to read, run, and reuse open simulation models.</p>
-<p>If you are a healthcare analyst with an interest in simulation, or a simulation modeller who wants to learn how to better share your work, then ReModel is for you.</p>
-<p>This website is a hub for ReModel activities. ReModel is hosted by the Strategy Unit.</p>
-<p>Find out more about <a href="./join-us/index.html">taking part</a> and take a look at <a href="./sessions/index.html">previous and upcoming sessions</a>.</p>
-<section id="cycle-1-non-elective-flow-simulation" class="level2">
-<h2 class="anchored" data-anchor-id="cycle-1-non-elective-flow-simulation">Cycle 1: Non-Elective Flow Simulation</h2>
-<p>Cycle 1 focuses on the open-source <strong>Non-Elective Flow Simulation</strong>, a discrete-event simulation of patients moving from the emergency department into same-day emergency care or an inpatient bed. We will explore how bed capacity, length of stay and same-day emergency care activity affect queues and waiting times.</p>
-<p>Registration for this cycle covers both online sessions:</p>
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p>The <strong>Non-Elective Flow Simulation</strong> is an open-source discrete-event simulation developed by Helena Robinson at Countess of Chester Hospital NHS Foundation Trust. It represents patients moving from the emergency department into SDEC or an inpatient bed and explores how bed capacity, admitted length of stay and SDEC activity affect queues and waiting times. The model is written in Python using SimPy and includes a Streamlit interface.</p>
+<section id="session-objectives-and-outline" class="level2">
+<h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
 <ul>
-<li><strong>Running the model:</strong> 30 September 2026</li>
-<li><strong>Reusing the model:</strong> 28 October 2026</li>
+<li>describe how they think the model is structured from inputs through to outputs;</li>
+<li>compare that understanding with the repository and SimPy implementation;</li>
+<li>identify how patients, queues, resources and events are represented;</li>
+<li>locate assumptions for arrivals, length of stay, capacity and SDEC activity;</li>
+<li>discuss what they would change for a different question, service or local setting;</li>
+<li>trace a selected input assumption through the model to its effect on outputs; and</li>
+<li>identify how a change would need to be tested, validated and documented.</li>
 </ul>
-<p><a href="https://forms.office.com/e/CBAmq3fkUg" class="btn btn-primary" target="_blank">Sign up for Cycle 1</a></p>
-<p>NOTE: THIS IS STILL DRAFT AND A WORK IN PROGRESS</p>
+<p>The aim is for participants to be able to identify an input assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.</p>
+</section>
+<section id="actions-for-participants-before-the-session" class="level2">
+<h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Retain the working environment and editable repository from Session 1.</li>
+<li>If you did not attend Session 1, confirm that you can complete a model run before this session.</li>
+<li>Consider one assumption or feature you would change for your own service or analytical question.</li>
+</ul>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
+<ul>
+<li><a href="https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation">GitHub repository</a> — source code and repository documentation.</li>
+<li><a href="https://drive.google.com/file/d/1BIUDaDfDp2cj6EF19908XQ4eB7h9GMCp/view">Project presentation slides</a> — background to the model and its intended use.</li>
+<li><a href="https://youtu.be/0DUx5hhxjoA">HSMA showcase presentation</a> — recorded project presentation.</li>
+<li><a href="https://doi.org/10.1080/17477778.2026.2663849">Vidigi paper</a> — related work on animated visualisation of discrete-event simulation models, using this model as an application example.</li>
+</ul>
+<p>The project is documented through its repository and HSMA materials. We are not currently aware of a dedicated peer-reviewed paper or independent reproduction of this specific model.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -2,38 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://the-strategy-unit.github.io/ReModel-docs/index.html</loc>
-    <lastmod>2026-07-10T09:02:07.589Z</lastmod>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
   </url>
   <url>
     <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/index.html</loc>
-    <lastmod>2026-07-10T09:02:07.590Z</lastmod>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
   </url>
   <url>
-    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_primary-demand-111/index.html</loc>
-    <lastmod>2026-07-10T09:02:07.590Z</lastmod>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/4_primary-demand-111-reusing/index.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
   </url>
   <url>
-    <loc>https://the-strategy-unit.github.io/ReModel-docs/join-us/index.html</loc>
-    <lastmod>2026-07-10T09:02:07.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strategy-unit.github.io/ReModel-docs/join-us/code-of-conduct.html</loc>
-    <lastmod>2026-07-10T09:02:07.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strategy-unit.github.io/ReModel-docs/join-us/how-remodel-works.html</loc>
-    <lastmod>2026-07-10T09:02:07.590Z</lastmod>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_nonelective-flow-reusing/index.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
   </url>
   <url>
     <loc>https://the-strategy-unit.github.io/ReModel-docs/about.html</loc>
-    <lastmod>2026-07-10T09:02:07.588Z</lastmod>
+    <lastmod>2026-07-21T13:35:10.101Z</lastmod>
   </url>
   <url>
-    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/3_triage-during-intense-demand/index.html</loc>
-    <lastmod>2026-07-10T09:02:07.590Z</lastmod>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/join-us/code-of-conduct.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
   </url>
   <url>
-    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow/index.html</loc>
-    <lastmod>2026-07-10T09:02:07.590Z</lastmod>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/join-us/how-remodel-works.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/join-us/index.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/6_triage-during-intense-demand-reusing/index.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow-running/index.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/5_triage-during-intense-demand-running/index.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strategy-unit.github.io/ReModel-docs/sessions/3_primary-demand-111-running/index.html</loc>
+    <lastmod>2026-07-21T13:35:10.102Z</lastmod>
   </url>
 </urlset>

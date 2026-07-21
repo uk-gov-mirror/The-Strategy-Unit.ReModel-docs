@@ -2,9 +2,12 @@
   {
     "listing": "/sessions/index.html",
     "items": [
-      "/sessions/2_primary-demand-111/index.html",
-      "/sessions/3_triage-during-intense-demand/index.html",
-      "/sessions/1_nonelective-flow/index.html"
+      "/sessions/1_nonelective-flow-running/index.html",
+      "/sessions/2_nonelective-flow-reusing/index.html",
+      "/sessions/3_primary-demand-111-running/index.html",
+      "/sessions/4_primary-demand-111-reusing/index.html",
+      "/sessions/5_triage-during-intense-demand-running/index.html",
+      "/sessions/6_triage-during-intense-demand-reusing/index.html"
     ]
   }
 ]

@@ -10,11 +10,11 @@
 <atom:link href="https://the-strategy-unit.github.io/ReModel-docs/sessions/index.xml" rel="self" type="application/rss+xml"/>
 <description>A website to support ReModel: Read, Run, Reuse Open Simulation Models</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 26 Jun 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 24 Feb 2027 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Meeting the demand of 111 for primary care services</title>
+  <title>The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study: Reusing</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
-  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_primary-demand-111/</link>
+  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/6_triage-during-intense-demand-reusing/</link>
   <description><![CDATA[ 
 
 
@@ -22,34 +22,54 @@
 
 
 
-<section id="session-1-25th-nov-2026" class="level1">
-<h1>Session 1: 25th Nov 2026</h1>
-<p>Lorem ipsum</p>
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p>This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.</p>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
+<ul>
+<li>describe how they think the model is structured from patient inputs through to reported outcomes;</li>
+<li>compare that understanding with the R scripts and simulation implementation;</li>
+<li>identify how arrivals, length of stay, capacity and triage rules are represented;</li>
+<li>locate the data and assumptions controlling the supplied scenarios;</li>
+<li>discuss what they would change for a different question or use case;</li>
+<li>trace a selected input assumption through the code to a published output; and</li>
+<li>use the reproduction evidence to identify how a change should be checked, validated and documented.</li>
+</ul>
+<p>The aim is for participants to be able to identify an assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.</p>
 </section>
 <section id="actions-for-participants-before-the-session" class="level2">
 <h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Retain the working R environment and editable repository from Session 1.</li>
+<li>If you did not attend Session 1, confirm that you can complete the selected model run before this session.</li>
+<li>Consider one input, rule or scenario you would change and why the change would be analytically useful.</li>
+</ul>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
-</section>
-</section>
-<section id="session-2-6th-jan-2027" class="level1">
-<h1>Session 2: 6th Jan 2027</h1>
+<ul>
+<li><a href="https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/">STARS reproduction website</a> — methods, reporting assessment, validation discussion and reproducibility log.</li>
+<li><a href="https://github.com/pythonhealthdatascience/stars-reproduce-wood-2021">STARS reproduction repository</a> — independently recreated code and supporting material.</li>
+<li><a href="https://doi.org/10.5281/zenodo.13881986">Archived reproduction</a> — citable snapshot of the reproducibility assessment.</li>
+<li><a href="https://doi.org/10.5281/zenodo.12179846">Reproduction protocol</a> — protocol used to structure the assessment.</li>
+<li><a href="https://doi.org/10.1080/17477778.2025.2552177">Reproducibility study</a> — related peer-reviewed study of discrete-event simulation reproducibility.</li>
+</ul>
 
 
+</section>
 </section>
 
  ]]></description>
   <category>DES</category>
-  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_primary-demand-111/</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/6_triage-during-intense-demand-reusing/</guid>
+  <pubDate>Wed, 24 Feb 2027 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study</title>
+  <title>The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study: Running</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
-  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/3_triage-during-intense-demand/</link>
+  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/5_triage-during-intense-demand-running/</link>
   <description><![CDATA[ 
 
 
@@ -57,34 +77,53 @@
 
 
 
-<section id="session-1-27th-jan-2027" class="level1">
-<h1>Session 1: 27th Jan 2027</h1>
-<p>Lorem ipsum</p>
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p>This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.</p>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will focus on obtaining the original code and running a defined part of the analysis. Participants will:</p>
+<ul>
+<li>clone the original GitHub repository and identify the main R scripts, inputs and outputs;</li>
+<li>establish an environment in which a defined part of the analysis will run;</li>
+<li>reproduce an existing scenario, table or figure;</li>
+<li>compare their run with the paper and independent reproduction; and</li>
+<li>explore the existing demand, capacity and triage scenarios with appropriate caution.</li>
+</ul>
+<p>The aim is for participants to leave with a local copy of the repository, a working environment and a successful run of a defined part of the analysis.</p>
 </section>
 <section id="actions-for-participants-before-the-session" class="level2">
 <h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Bring a laptop with R and Git installed.</li>
+<li>Clone or download the <a href="https://github.com/nhs-bnssg-analytics/triage-modelling">original model repository</a>.</li>
+<li>Review the <a href="https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/">STARS reproduction website</a>.</li>
+<li>Read the <a href="https://pubmed.ncbi.nlm.nih.gov/33560181/">paper abstract</a> or the shorter <a href="https://www.hdruk.ac.uk/case-studies/impact-committee-selection-the-value-of-triage-during-periods-of-intense-covid-19-demand-simulation-modelling-study/">HDR UK case study</a>.</li>
+</ul>
+<p>Older analytical environments can require specific package versions. Tested setup instructions will be added here before the session.</p>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
-</section>
-</section>
-<section id="session-2-24th-feb-2027" class="level1">
-<h1>Session 2: 24th Feb 2027</h1>
+<ul>
+<li><a href="https://github.com/nhs-bnssg-analytics/triage-modelling">Original GitHub repository</a> — R model, inputs, analysis scripts and outputs.</li>
+<li><a href="https://doi.org/10.1177/0272989X21994035">Peer-reviewed paper</a> — Wood et al.&nbsp;(2021), <em>Medical Decision Making</em>.</li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/33560181/">PubMed record</a> — abstract and bibliographic details.</li>
+<li><a href="https://www.hdruk.ac.uk/case-studies/impact-committee-selection-the-value-of-triage-during-periods-of-intense-covid-19-demand-simulation-modelling-study/">HDR UK case study</a> — accessible account of the question and findings.</li>
+</ul>
 
 
+</section>
 </section>
 
  ]]></description>
   <category>DES</category>
-  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/3_triage-during-intense-demand/</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/5_triage-during-intense-demand-running/</guid>
+  <pubDate>Wed, 27 Jan 2027 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Nonelective Flow DES Model</title>
+  <title>Meeting the demand of 111 for primary care services: Reusing</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
-  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow/</link>
+  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/4_primary-demand-111-reusing/</link>
   <description><![CDATA[ 
 
 
@@ -92,29 +131,212 @@
 
 
 
-<section id="session-1-30th-sept-2026" class="level1">
-<h1>Session 1: 30th Sept 2026</h1>
-<p>Lorem ipsum</p>
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p><strong>MOOOD</strong> is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.</p>
+<p>The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.</p>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
+<ul>
+<li>describe how they think the model is structured from input data through to outputs;</li>
+<li>compare that understanding with the repository and SimPy implementation;</li>
+<li>identify how patients, events, services and onward contacts are represented;</li>
+<li>locate the assumptions controlling demand, pathways and service contact;</li>
+<li>discuss what they would change for a different question, population or service;</li>
+<li>trace a selected input assumption through the model to its effect on results; and</li>
+<li>identify how a change would need to be tested, validated and documented.</li>
+</ul>
+<p>The aim is for participants to be able to identify an input or pathway assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.</p>
 </section>
 <section id="actions-for-participants-before-the-session" class="level2">
 <h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Retain the working environment and editable repository from Session 1.</li>
+<li>If you did not attend Session 1, confirm that you can complete a model run before this session.</li>
+<li>Consider one input, pathway or service assumption you would change for your own analytical question.</li>
+</ul>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
-</section>
-</section>
-<section id="session-2-28th-oct-2026" class="level1">
-<h1>Session 2: 28th Oct 2026</h1>
+<ul>
+<li><a href="https://github.com/RichardPilbery/MOOOD-study">GitHub repository</a> — source code, tests and configuration.</li>
+<li><a href="https://hsma.co.uk/previous_projects/hsma_4/h4_4008_meeting_demand_111/index.html">HSMA project page</a> — project background and supporting material.</li>
+<li><a href="https://atlas.hsma.co.uk/packages_projects_tools/meeting_the_demand_of_111/">Healthcare Service Analytics &amp; Decision Intelligence Atlas review</a> — assessment of documentation, testing, reproducibility and deployment.</li>
+<li><a href="https://researchportal.plymouth.ac.uk/en/publications/modelling-nhs-england-111-demand-for-primary-care-services-a-disc/">University of Plymouth research record</a> — publication details and related outputs.</li>
+<li><a href="https://doi.org/10.1371/journal.pone.0300193">Supporting observational study</a> — analysis of NHS 111 demand for primary-care services.</li>
+</ul>
+<p>Reuse elsewhere will require local review and validation of the demand, capacity, pathway and behavioural assumptions.</p>
 
 
+</section>
 </section>
 
  ]]></description>
   <category>DES</category>
-  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow/</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/4_primary-demand-111-reusing/</guid>
+  <pubDate>Wed, 06 Jan 2027 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Meeting the demand of 111 for primary care services: Running</title>
+  <dc:creator>Dr Lucy Morgan</dc:creator>
+  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/3_primary-demand-111-running/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p><strong>MOOOD</strong> is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.</p>
+<p>The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.</p>
+<section id="session-objectives-and-outline" class="level2">
+<h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will focus on obtaining the code and running the existing analysis. Participants will:</p>
+<ul>
+<li>clone the GitHub repository and identify the main execution and documentation files;</li>
+<li>create the Python environment and install the required dependencies;</li>
+<li>run the model and, where appropriate, its interactive application;</li>
+<li>reproduce an existing scenario and compare its behaviour with the published paper; and</li>
+<li>explore the current inputs and outputs while accounting for stochastic variation.</li>
+</ul>
+<p>The aim is for participants to leave with a local copy of the repository, a working environment and a successful model run that they can continue to explore.</p>
+</section>
+<section id="actions-for-participants-before-the-session" class="level2">
+<h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Bring a laptop on which you can use GitHub and install or run Python.</li>
+<li>Clone or download the <a href="https://github.com/RichardPilbery/MOOOD-study">MOOOD repository</a>.</li>
+<li>Follow the <a href="https://richardpilbery.github.io/MOOOD-study/">generated documentation</a> and repository setup instructions as far as you can.</li>
+<li>Read the abstract and strengths and limitations in the <a href="https://bmjopen.bmj.com/content/13/9/e076203">BMJ Open paper</a>.</li>
+</ul>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
+<ul>
+<li><a href="https://github.com/RichardPilbery/MOOOD-study">GitHub repository</a> — model, application, tests, data and container configuration.</li>
+<li><a href="https://richardpilbery.github.io/MOOOD-study/">Generated technical documentation</a> — documentation for the codebase.</li>
+<li><a href="https://bmjopen.bmj.com/content/13/9/e076203">BMJ Open paper</a> — peer-reviewed methods, results and limitations.</li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10496671/">Full text in PubMed Central</a> — alternative open-access version of the paper.</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>DES</category>
+  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/3_primary-demand-111-running/</guid>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Nonelective Flow DES Model: Reusing</title>
+  <dc:creator>Dr Lucy Morgan</dc:creator>
+  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_nonelective-flow-reusing/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p>The <strong>Non-Elective Flow Simulation</strong> is an open-source discrete-event simulation developed by Helena Robinson at Countess of Chester Hospital NHS Foundation Trust. It represents patients moving from the emergency department into SDEC or an inpatient bed and explores how bed capacity, admitted length of stay and SDEC activity affect queues and waiting times. The model is written in Python using SimPy and includes a Streamlit interface.</p>
+<section id="session-objectives-and-outline" class="level2">
+<h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
+<ul>
+<li>describe how they think the model is structured from inputs through to outputs;</li>
+<li>compare that understanding with the repository and SimPy implementation;</li>
+<li>identify how patients, queues, resources and events are represented;</li>
+<li>locate assumptions for arrivals, length of stay, capacity and SDEC activity;</li>
+<li>discuss what they would change for a different question, service or local setting;</li>
+<li>trace a selected input assumption through the model to its effect on outputs; and</li>
+<li>identify how a change would need to be tested, validated and documented.</li>
+</ul>
+<p>The aim is for participants to be able to identify an input assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.</p>
+</section>
+<section id="actions-for-participants-before-the-session" class="level2">
+<h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Retain the working environment and editable repository from Session 1.</li>
+<li>If you did not attend Session 1, confirm that you can complete a model run before this session.</li>
+<li>Consider one assumption or feature you would change for your own service or analytical question.</li>
+</ul>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
+<ul>
+<li><a href="https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation">GitHub repository</a> — source code and repository documentation.</li>
+<li><a href="https://drive.google.com/file/d/1BIUDaDfDp2cj6EF19908XQ4eB7h9GMCp/view">Project presentation slides</a> — background to the model and its intended use.</li>
+<li><a href="https://youtu.be/0DUx5hhxjoA">HSMA showcase presentation</a> — recorded project presentation.</li>
+<li><a href="https://doi.org/10.1080/17477778.2026.2663849">Vidigi paper</a> — related work on animated visualisation of discrete-event simulation models, using this model as an application example.</li>
+</ul>
+<p>The project is documented through its repository and HSMA materials. We are not currently aware of a dedicated peer-reviewed paper or independent reproduction of this specific model.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>DES</category>
+  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_nonelective-flow-reusing/</guid>
+  <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Nonelective Flow DES Model: Running</title>
+  <dc:creator>Dr Lucy Morgan</dc:creator>
+  <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow-running/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p>The <strong>Non-Elective Flow Simulation</strong> is an open-source discrete-event simulation developed by Helena Robinson at Countess of Chester Hospital NHS Foundation Trust. It represents patients moving from the emergency department into SDEC or an inpatient bed and explores how bed capacity, admitted length of stay and SDEC activity affect queues and waiting times. The model is written in Python using SimPy and includes a Streamlit interface.</p>
+<section id="session-objectives-and-outline" class="level2">
+<h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will focus on obtaining the code and running the model as it currently exists. Participants will:</p>
+<ul>
+<li>clone the GitHub repository and identify the files needed to get started;</li>
+<li>create the supplied Python environment and install the dependencies;</li>
+<li>start the Streamlit application and run the simulation;</li>
+<li>reproduce an existing scenario and check that the run has completed as expected; and</li>
+<li>explore the existing controls and interpret the principal outputs.</li>
+</ul>
+<p>The aim is for participants to leave with a local copy of the repository, a working environment and a successful model run that they can continue to explore.</p>
+</section>
+<section id="actions-for-participants-before-the-session" class="level2">
+<h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Bring a laptop on which you can use GitHub and install or run Python.</li>
+<li>Clone or download the <a href="https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation">model repository</a>.</li>
+<li>Follow the repository’s current environment instructions as far as you can. Make a note of any errors so these can be discussed during the session.</li>
+<li>If time allows, try the browser-based <a href="https://non-elective-flow-simulation-coch.streamlit.app/">Streamlit application</a>.</li>
+</ul>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
+<ul>
+<li><a href="https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation">GitHub repository</a> — model code, application and environment files.</li>
+<li><a href="https://non-elective-flow-simulation-coch.streamlit.app/">Interactive Streamlit application</a> — run scenarios without a local installation.</li>
+<li><a href="https://hsma.co.uk/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html">HSMA project overview</a> — project background and links to the code, application and presentation material.</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>DES</category>
+  <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow-running/</guid>
+  <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

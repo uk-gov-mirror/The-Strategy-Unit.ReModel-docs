@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr Lucy Morgan">
-<meta name="dcterms.date" content="2026-06-26">
+<meta name="dcterms.date" content="2027-01-06">
 
-<title>Meeting the demand of 111 for primary care services – ReModel: Read, Run, Reuse Open Simulation Models</title>
+<title>Meeting the demand of 111 for primary care services: Reusing – ReModel: Read, Run, Reuse Open Simulation Models</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -47,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c3b43c4c31acf62bdc8e15f9b7ac4420.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-e4793228928cbe254e8126d6889f4ec6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-c3b43c4c31acf62bdc8e15f9b7ac4420.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-93b77a0fa887f0ac426e36b668c902ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-3ace969288f64bd00fb6a5426994f16d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-93b77a0fa887f0ac426e36b668c902ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,6 +80,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../_SUBrand.StyleSheet.css">
+<link rel="stylesheet" href="../../_listing.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -306,8 +307,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Meeting the demand of 111 for primary care services</h1>
-            <p class="subtitle lead">Session 1 [25th Nov 2026]]: Technical Setup</p>
+      <h1 class="title">Meeting the demand of 111 for primary care services: Reusing</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">DES</div>
               </div>
@@ -327,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 26, 2026</p>
+        <p class="date">January 6, 2027</p>
       </div>
     </div>
     
@@ -343,13 +343,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#session-1-25th-nov-2026" id="toc-session-1-25th-nov-2026" class="nav-link active" data-scroll-target="#session-1-25th-nov-2026">Session 1: 25th Nov 2026</a>
+  <li><a href="#model-overview" id="toc-model-overview" class="nav-link active" data-scroll-target="#model-overview">Model overview</a>
   <ul class="collapse">
   <li><a href="#session-objectives-and-outline" id="toc-session-objectives-and-outline" class="nav-link" data-scroll-target="#session-objectives-and-outline">Session objectives and outline</a></li>
   <li><a href="#actions-for-participants-before-the-session" id="toc-actions-for-participants-before-the-session" class="nav-link" data-scroll-target="#actions-for-participants-before-the-session">Actions for participants before the session</a></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional resources</a></li>
   </ul></li>
-  <li><a href="#session-2-6th-jan-2027" id="toc-session-2-6th-jan-2027" class="nav-link" data-scroll-target="#session-2-6th-jan-2027">Session 2: 6th Jan 2027</a></li>
   </ul>
 </nav>
     </div>
@@ -361,23 +360,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="session-1-25th-nov-2026" class="level1">
-<h1>Session 1: 25th Nov 2026</h1>
-<p>Lorem ipsum</p>
+<section id="model-overview" class="level1">
+<h1>Model overview</h1>
+<p><strong>MOOOD</strong> is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.</p>
+<p>The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.</p>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
+<p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
+<ul>
+<li>describe how they think the model is structured from input data through to outputs;</li>
+<li>compare that understanding with the repository and SimPy implementation;</li>
+<li>identify how patients, events, services and onward contacts are represented;</li>
+<li>locate the assumptions controlling demand, pathways and service contact;</li>
+<li>discuss what they would change for a different question, population or service;</li>
+<li>trace a selected input assumption through the model to its effect on results; and</li>
+<li>identify how a change would need to be tested, validated and documented.</li>
+</ul>
+<p>The aim is for participants to be able to identify an input or pathway assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.</p>
 </section>
 <section id="actions-for-participants-before-the-session" class="level2">
 <h2 class="anchored" data-anchor-id="actions-for-participants-before-the-session">Actions for participants before the session</h2>
+<ul>
+<li>Retain the working environment and editable repository from Session 1.</li>
+<li>If you did not attend Session 1, confirm that you can complete a model run before this session.</li>
+<li>Consider one input, pathway or service assumption you would change for your own analytical question.</li>
+</ul>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
-</section>
-</section>
-<section id="session-2-6th-jan-2027" class="level1">
-<h1>Session 2: 6th Jan 2027</h1>
+<ul>
+<li><a href="https://github.com/RichardPilbery/MOOOD-study">GitHub repository</a> — source code, tests and configuration.</li>
+<li><a href="https://hsma.co.uk/previous_projects/hsma_4/h4_4008_meeting_demand_111/index.html">HSMA project page</a> — project background and supporting material.</li>
+<li><a href="https://atlas.hsma.co.uk/packages_projects_tools/meeting_the_demand_of_111/">Healthcare Service Analytics &amp; Decision Intelligence Atlas review</a> — assessment of documentation, testing, reproducibility and deployment.</li>
+<li><a href="https://researchportal.plymouth.ac.uk/en/publications/modelling-nhs-england-111-demand-for-primary-care-services-a-disc/">University of Plymouth research record</a> — publication details and related outputs.</li>
+<li><a href="https://doi.org/10.1371/journal.pone.0300193">Supporting observational study</a> — analysis of NHS 111 demand for primary-care services.</li>
+</ul>
+<p>Reuse elsewhere will require local review and validation of the demand, capacity, pathway and behavioural assumptions.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
