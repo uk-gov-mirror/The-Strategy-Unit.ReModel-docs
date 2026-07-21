@@ -1,0 +1,6 @@
+# Microsoft Forms respondent links. Replace each placeholder when its cycle's
+# form is ready; no page content needs to be edited.
+registration_forms:
+  cycle_1: "https://forms.office.com/e/CBAmq3fkUg"
+  cycle_2: "https://forms.office.com/e/REPLACE_WITH_CYCLE_2_FORM_ID"
+  cycle_3: "https://forms.office.com/e/REPLACE_WITH_CYCLE_3_FORM_ID"
