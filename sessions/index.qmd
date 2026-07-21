@@ -1,7 +1,7 @@
 ---
 title: "ReModel sessions"
 listing:
-  sort: "date desc"
+  sort: "date asc"
   type: default
   categories: true
   fields: [date, author, title, subtitle, categories, description]

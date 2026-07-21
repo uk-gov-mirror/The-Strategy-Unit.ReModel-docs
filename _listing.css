@@ -1,0 +1,22 @@
+/* Give session summaries most of each listing row on wider screens. */
+@media (min-width: 768px) {
+  .quarto-listing.quarto-listing-container-default .quarto-listing-default .quarto-post > .metadata {
+    flex: 0 1 15%;
+  }
+
+  .quarto-listing.quarto-listing-container-default .quarto-listing-default .quarto-post > .body {
+    flex: 1 1 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  #quarto-content:has(.quarto-listing-container-default) > main.content {
+    grid-column: page-start / page-end;
+    padding-right: 6.75rem;
+  }
+
+  #quarto-content:has(.quarto-listing-container-default) > #quarto-margin-sidebar {
+    justify-self: end;
+    width: 5.75rem;
+  }
+}

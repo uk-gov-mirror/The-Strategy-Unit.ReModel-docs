@@ -1,0 +1,39 @@
+---
+title: "The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study: Running"
+author: Dr Lucy Morgan
+date: "2027-01-27"
+categories: [DES]
+toc: true
+---
+
+# Model overview
+
+This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.
+
+## Session objectives and outline
+
+This session will focus on obtaining the original code and running a defined part of the analysis. Participants will:
+
+- clone the original GitHub repository and identify the main R scripts, inputs and outputs;
+- establish an environment in which a defined part of the analysis will run;
+- reproduce an existing scenario, table or figure;
+- compare their run with the paper and independent reproduction; and
+- explore the existing demand, capacity and triage scenarios with appropriate caution.
+
+The aim is for participants to leave with a local copy of the repository, a working environment and a successful run of a defined part of the analysis.
+
+## Actions for participants before the session
+
+- Bring a laptop with R and Git installed.
+- Clone or download the [original model repository](https://github.com/nhs-bnssg-analytics/triage-modelling).
+- Review the [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/).
+- Read the [paper abstract](https://pubmed.ncbi.nlm.nih.gov/33560181/) or the shorter [HDR UK case study](https://www.hdruk.ac.uk/case-studies/impact-committee-selection-the-value-of-triage-during-periods-of-intense-covid-19-demand-simulation-modelling-study/).
+
+Older analytical environments can require specific package versions. Tested setup instructions will be added here before the session.
+
+## Additional resources
+
+- [Original GitHub repository](https://github.com/nhs-bnssg-analytics/triage-modelling) — R model, inputs, analysis scripts and outputs.
+- [Peer-reviewed paper](https://doi.org/10.1177/0272989X21994035) — Wood et al. (2021), *Medical Decision Making*.
+- [PubMed record](https://pubmed.ncbi.nlm.nih.gov/33560181/) — abstract and bibliographic details.
+- [HDR UK case study](https://www.hdruk.ac.uk/case-studies/impact-committee-selection-the-value-of-triage-during-periods-of-intense-covid-19-demand-simulation-modelling-study/) — accessible account of the question and findings.
