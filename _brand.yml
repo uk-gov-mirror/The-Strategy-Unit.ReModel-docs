@@ -7,7 +7,9 @@ meta:
 
 # adjust these paths if logos are placed elsewhere
 logo:
-  small: images/logo_black_favicon.png
+  small:
+    light: images/logo_black_medium.png
+    dark: images/logo_yellow_medium.png
   medium:
     light: images/logo_black_medium.png
     dark: images/logo_yellow_medium.png
@@ -22,11 +24,23 @@ color:
     su-yellow: "#f9bd07"    
     su-white: "#f5f4f3"
     su-blue: "#5881c1"    
-  foreground: su-charcoal
-  background: su-white
-  primary: su-yellow
-  secondary: dark-grey   
-  info: su-blue
+  # Explicit light and dark semantic colours allow Quarto to generate the
+  # colour-scheme toggle and keep components in sync when the mode changes.
+  foreground:
+    light: su-charcoal
+    dark: su-white
+  background:
+    light: su-white
+    dark: su-charcoal
+  primary:
+    light: su-yellow
+    dark: su-yellow
+  secondary:
+    light: dark-grey
+    dark: su-white
+  info:
+    light: su-blue
+    dark: su-yellow
 
 typography:
   fonts:

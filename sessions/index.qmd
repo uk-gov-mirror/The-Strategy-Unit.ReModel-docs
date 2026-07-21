@@ -1,5 +1,6 @@
 ---
 title: "ReModel sessions"
+title-block-banner: false
 listing:
   sort: "date asc"
   type: default
