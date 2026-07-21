@@ -18,7 +18,7 @@ Our goal is to empower people within the NHS to:
 
 ## How does ReModel work?
 
-[See our "How ReModel Works" page](join-us/how-remodel-works.qmd) for further details on how sessions will run. All sessions are free for NHS participants.
+[See our "How ReModel Works" page](join-us/how-remodel-works.qmd) for further details on how sessions will run. Whilst our target audience is NHS analysts we welcome registrations from non-NHS analysts. Spaces will be capped to 15 places per session and places will be prioritised for NHS analysts.
 
 ## How do I join?
 
@@ -28,3 +28,10 @@ Our goal is to empower people within the NHS to:
 
 ReModel has been funded in 25/26 as part of the national Strategic Commissioning Intelligence Centre (SCIC).  
 
+Simulation modelling can be effectively used in strategic commissioning by:
+
+- Analysing complex systems: It allows organizations to evaluate different scenarios and make data-driven decisions, which is crucial for strategic planning in commissioning.
+- Identifying resource needs: Simulation modelling helps in understanding the current state of health services and identifying underserved communities, enabling better allocation of resources.
+- Evaluating service impacts: It allows for the assessment of the impact of various service changes on population health and resource utilization, ensuring that commissioning decisions are evidence-based.
+- Supporting economic evaluation: By analysing the economic return on investment for interventions, simulation modelling aids in prioritizing services and ensuring that resources are used efficiently.
+- Facilitating transparency: It promotes transparency in decision-making processes, allowing stakeholders to understand the rationale behind commissioning decisions.
