@@ -1,6 +1,7 @@
 ---
 title: "About ReModel"
 image: images/logo_yellow.svg
+page-layout: full
 format: 
   html:
     toc: true
@@ -18,11 +19,11 @@ Our goal is to empower people within the NHS to:
 
 ## How does ReModel work?
 
-[See our "How ReModel Works" page](join-us/how-remodel-works.qmd) for further details on how sessions will run. Whilst our target audience is NHS analysts we welcome registrations from non-NHS analysts. Spaces will be capped to 15 places per session and places will be prioritised for NHS analysts.
+[See how ReModel works](join-us/index.qmd#how-remodel-works) for further details on how sessions will run. Whilst our target audience is NHS analysts we welcome registrations from non-NHS analysts. Spaces will be capped to 15 places per session and places will be prioritised for NHS analysts.
 
 ## How do I join?
 
-[Register for ReModel on our website](join-us/index.qmd).
+[Register for ReModel](join-us/index.qmd#register-for-remodel).
 
 ## How we are funded
 

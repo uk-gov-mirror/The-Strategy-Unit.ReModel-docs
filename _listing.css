@@ -1,4 +1,10 @@
 /* Give session summaries most of each listing row on wider screens. */
+.quarto-listing.quarto-listing-container-default .listing-title,
+.quarto-listing.quarto-listing-container-default .listing-title a {
+  font-family: "Roboto Slab", "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   .quarto-listing.quarto-listing-container-default .quarto-listing-default .quarto-post > .metadata {
     flex: 0 1 15%;

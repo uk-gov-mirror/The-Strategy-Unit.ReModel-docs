@@ -1,6 +1,9 @@
 ---
 title: "ReModel sessions"
+title-block-banner: false
 listing:
+  contents:
+    - "*/index.qmd"
   sort: "date asc"
   type: default
   categories: true
