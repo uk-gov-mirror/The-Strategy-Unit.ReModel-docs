@@ -21,7 +21,6 @@
 
 
 
-
 <section id="model-overview" class="level1">
 <h1>Model overview</h1>
 <p>This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.</p>
@@ -76,7 +75,6 @@
 
 
 
-
 <section id="model-overview" class="level1">
 <h1>Model overview</h1>
 <p>This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.</p>
@@ -125,7 +123,6 @@
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/4_primary-demand-111-reusing/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -187,7 +184,6 @@
 
 
 
-
 <section id="model-overview" class="level1">
 <h1>Model overview</h1>
 <p><strong>MOOOD</strong> is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.</p>
@@ -236,7 +232,6 @@
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_nonelective-flow-reusing/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -291,7 +286,6 @@
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow-running/</link>
   <description><![CDATA[ 
-
 
 
 

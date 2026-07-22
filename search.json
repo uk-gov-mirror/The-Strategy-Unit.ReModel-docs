@@ -95,14 +95,14 @@
     "href": "about.html#how-does-remodel-work",
     "title": "About ReModel",
     "section": "How does ReModel work?",
-    "text": "How does ReModel work?\nSee our “How ReModel Works” page for further details on how sessions will run. Whilst our target audience is NHS analysts we welcome registrations from non-NHS analysts. Spaces will be capped to 15 places per session and places will be prioritised for NHS analysts."
+    "text": "How does ReModel work?\nSee how ReModel works for further details on how sessions will run. Whilst our target audience is NHS analysts we welcome registrations from non-NHS analysts. Spaces will be capped to 15 places per session and places will be prioritised for NHS analysts."
   },
   {
     "objectID": "about.html#how-do-i-join",
     "href": "about.html#how-do-i-join",
     "title": "About ReModel",
     "section": "How do I join?",
-    "text": "How do I join?\nRegister for ReModel on our website."
+    "text": "How do I join?\nRegister for ReModel."
   },
   {
     "objectID": "about.html#how-we-are-funded",
@@ -116,66 +116,42 @@
     "href": "join-us/code-of-conduct.html",
     "title": "Code of Conduct",
     "section": "",
-    "text": "Community rules:\n\nBe respectful: Treat all participants with respect and kindness. Harassment, discrimination, or any form of abusive behavior will not be tolerated.\nCamera and microphone etiquette: When participating in video calls, ensure your camera and microphone are used appropriately. Mute your microphone when not speaking to minimize background noise. We ask that you keep your camera on during sessions to foster a more engaging and interactive environment, but we understand that there may be circumstances where this is not possible.\nStay on topic: Keep discussions relevant to the purpose of the community. Off-topic conversations should be taken to private messages.\nShare knowledge: Contribute your expertise and insights to help others. Be open to learning from others as well.\nReport issues: If you encounter any problems or witness rule violations, report them to the moderators.",
-    "crumbs": [
-      "Join us",
-      "Code of Conduct"
-    ]
+    "text": "Community rules:\n\nBe respectful: Treat all participants with respect and kindness. Harassment, discrimination, or any form of abusive behavior will not be tolerated.\nCamera and microphone etiquette: When participating in video calls, ensure your camera and microphone are used appropriately. Mute your microphone when not speaking to minimize background noise. We ask that you keep your camera on during sessions to foster a more engaging and interactive environment, but we understand that there may be circumstances where this is not possible.\nStay on topic: Keep discussions relevant to the purpose of the community. Off-topic conversations should be taken to private messages.\nShare knowledge: Contribute your expertise and insights to help others. Be open to learning from others as well.\nReport issues: If you encounter any problems or witness rule violations, report them to the moderators."
   },
   {
     "objectID": "join-us/how-remodel-works.html",
     "href": "join-us/how-remodel-works.html",
     "title": "How ReModel Works",
     "section": "",
-    "text": "ReModel will run in 2 monthly cycles, with each cycle focusing on a different simulation model. Each cycle will consist of two sessions: a Running session and a Reusing session.\nSession 1: Running - this session will be an opportunity to clone and run the model, reproduce an existing result or scenario, and confidently explore the model and its outputs. Participants will be encouraged to ask questions and share their insights.\nSession 2: Reusing - this session will focus on the technical aspects of the model, including its structure, implementation, data requirements and input assumptions. Participants will consider what they would change, whether they understand the model well enough to make those changes, and how an edited model should be checked and documented.\nEach session will last for 1 hour, and will follow a participative discussion format.\nCost: All sessions are free for NHS participants.",
-    "crumbs": [
-      "Join us",
-      "How ReModel Works"
-    ]
+    "text": "ReModel will run in 2 monthly cycles, with each cycle focusing on a different simulation model. Each cycle will consist of two sessions: a Running session and a Reusing session.\nSession 1: Running - this session will be an opportunity to clone and run the model, reproduce an existing result or scenario, and confidently explore the model and its outputs. Participants will be encouraged to ask questions and share their insights.\nSession 2: Reusing - this session will focus on the technical aspects of the model, including its structure, implementation, data requirements and input assumptions. Participants will consider what they would change, whether they understand the model well enough to make those changes, and how an edited model should be checked and documented.\nEach session will last for 1 hour, and will follow a participative discussion format.\nCost: All sessions are free for NHS participants."
   },
   {
     "objectID": "join-us/index.html",
     "href": "join-us/index.html",
-    "title": "Register for ReModel",
+    "title": "Join ReModel",
     "section": "",
-    "text": "You can sign up for one, several or all ReModel cycles. Each cycle focuses on one open simulation model and includes two linked sessions: Running and Reusing. Registration for a cycle covers both sessions in that cycle.",
-    "crumbs": [
-      "Join us",
-      "Register for ReModel"
-    ]
+    "text": "ReModel will run in 2 monthly cycles, with each cycle focusing on a different simulation model. Each cycle will consist of two sessions: a Running session and a Reusing session.\nSession 1: Running - this session will be an opportunity to clone and run the model, reproduce an existing result or scenario, and confidently explore the model and its outputs. Participants will be encouraged to ask questions and share their insights.\nSession 2: Reusing - this session will focus on the technical aspects of the model, including its structure, implementation, data requirements and input assumptions. Participants will consider what they would change, whether they understand the model well enough to make those changes, and how an edited model should be checked and documented.\nEach session will last for 1 hour, and will follow a participative discussion format.\nCost: All sessions are free for NHS participants."
   },
   {
-    "objectID": "join-us/index.html#cycle-1-non-elective-flow-simulation",
-    "href": "join-us/index.html#cycle-1-non-elective-flow-simulation",
-    "title": "Register for ReModel",
-    "section": "Cycle 1: Non-Elective Flow Simulation",
-    "text": "Cycle 1: Non-Elective Flow Simulation\n\nRunning the model: 30 September 2026\nReusing the model: 28 October 2026\n\nSign up for Cycle 1",
-    "crumbs": [
-      "Join us",
-      "Register for ReModel"
-    ]
+    "objectID": "join-us/index.html#how-remodel-works",
+    "href": "join-us/index.html#how-remodel-works",
+    "title": "Join ReModel",
+    "section": "",
+    "text": "ReModel will run in 2 monthly cycles, with each cycle focusing on a different simulation model. Each cycle will consist of two sessions: a Running session and a Reusing session.\nSession 1: Running - this session will be an opportunity to clone and run the model, reproduce an existing result or scenario, and confidently explore the model and its outputs. Participants will be encouraged to ask questions and share their insights.\nSession 2: Reusing - this session will focus on the technical aspects of the model, including its structure, implementation, data requirements and input assumptions. Participants will consider what they would change, whether they understand the model well enough to make those changes, and how an edited model should be checked and documented.\nEach session will last for 1 hour, and will follow a participative discussion format.\nCost: All sessions are free for NHS participants."
   },
   {
-    "objectID": "join-us/index.html#cycle-2-meeting-the-demand-of-nhs-111-for-primary-care-services",
-    "href": "join-us/index.html#cycle-2-meeting-the-demand-of-nhs-111-for-primary-care-services",
-    "title": "Register for ReModel",
-    "section": "Cycle 2: Meeting the demand of NHS 111 for primary care services",
-    "text": "Cycle 2: Meeting the demand of NHS 111 for primary care services\n\nRunning the model: 25 November 2026\nReusing the model: 6 January 2027\n\nSign up for Cycle 2",
-    "crumbs": [
-      "Join us",
-      "Register for ReModel"
-    ]
+    "objectID": "join-us/index.html#register-for-remodel",
+    "href": "join-us/index.html#register-for-remodel",
+    "title": "Join ReModel",
+    "section": "Register for ReModel",
+    "text": "Register for ReModel\nYou can sign up for one, several or all ReModel cycles. Each cycle focuses on one open simulation model and includes two linked sessions: Running and Reusing. Registration for a cycle covers both sessions in that cycle.\n\nCycle 1: Non-Elective Flow Simulation\n\nRunning the model: 30 September 2026\nReusing the model: 28 October 2026\n\nSign up for Cycle 1\n\n\nCycle 2: Meeting the demand of NHS 111 for primary care services\n\nRunning the model: 25 November 2026\nReusing the model: 6 January 2027\n\nSign up for Cycle 2\n\n\nCycle 3: The Value of Triage during Periods of Intense COVID-19 Demand\n\nRunning the model: 27 January 2027\nReusing the model: 24 February 2027\n\nSign up for Cycle 3"
   },
   {
-    "objectID": "join-us/index.html#cycle-3-the-value-of-triage-during-periods-of-intense-covid-19-demand",
-    "href": "join-us/index.html#cycle-3-the-value-of-triage-during-periods-of-intense-covid-19-demand",
-    "title": "Register for ReModel",
-    "section": "Cycle 3: The Value of Triage during Periods of Intense COVID-19 Demand",
-    "text": "Cycle 3: The Value of Triage during Periods of Intense COVID-19 Demand\n\nRunning the model: 27 January 2027\nReusing the model: 24 February 2027\n\nSign up for Cycle 3",
-    "crumbs": [
-      "Join us",
-      "Register for ReModel"
-    ]
+    "objectID": "join-us/index.html#code-of-conduct",
+    "href": "join-us/index.html#code-of-conduct",
+    "title": "Join ReModel",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nCommunity rules:\n\nBe respectful: Treat all participants with respect and kindness. Harassment, discrimination, or any form of abusive behavior will not be tolerated.\nCamera and microphone etiquette: When participating in video calls, ensure your camera and microphone are used appropriately. Mute your microphone when not speaking to minimize background noise. We ask that you keep your camera on during sessions to foster a more engaging and interactive environment, but we understand that there may be circumstances where this is not possible.\nStay on topic: Keep discussions relevant to the purpose of the community. Off-topic conversations should be taken to private messages.\nShare knowledge: Contribute your expertise and insights to help others. Be open to learning from others as well.\nReport issues: If you encounter any problems or witness rule violations, report them to the moderators."
   },
   {
     "objectID": "sessions/6_triage-during-intense-demand-reusing/index.html",
