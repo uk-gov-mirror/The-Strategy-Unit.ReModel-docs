@@ -1,7 +1,8 @@
 ---
-title: "Nonelective Flow DES Model: Running"
+title: "Running: Nonelective Flow DES"
 author: Dr Lucy Morgan
 date: "2026-09-30"
+cycle: "Cycle 1: Non-Elective Flow Simulation"
 categories: [DES]
 toc: true
 ---

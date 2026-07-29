@@ -1,7 +1,8 @@
 ---
-title: "Meeting the demand of 111 for primary care services: Reusing"
+title: "Reusing: Meeting the demand of 111 for primary care services"
 author: Dr Lucy Morgan
 date: "2027-01-06"
+cycle: "Cycle 2: Meeting the demand of NHS 111 for primary care services"
 categories: [DES]
 toc: true
 ---
