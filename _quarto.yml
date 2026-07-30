@@ -26,7 +26,10 @@ format:
       light:
         - brand
       dark:
+        # Keep the brand's flat, older-compatible palette, then let a genuine
+        # dark base identify this stylesheet correctly across Quarto versions.
         - brand
+        - darkly
     css:
       - _SUBrand.StyleSheet.css
       - _listing.css
