@@ -5,9 +5,9 @@ listing:
   contents:
     - "*/index.qmd"
   sort: "date asc"
-  type: default
+  template: _session-listing.ejs.md
   categories: true
-  fields: [date, author, title, subtitle, categories, description]
+  fields: [cycle, date, author, title, subtitle, categories, description]
   sort-ui: false
   filter-ui: false
   max-description-length: 1000

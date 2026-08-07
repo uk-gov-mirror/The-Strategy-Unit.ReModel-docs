@@ -17,16 +17,3 @@ If you are a healthcare analyst with an interest in simulation, or a simulation 
 This website is a hub for ReModel activities. ReModel is hosted by the Strategy Unit.
 
 Find out more about [taking part](join-us/index.qmd) and take a look at [previous and upcoming sessions](sessions/index.qmd).
-
-## Cycle 1: Non-Elective Flow Simulation
-
-Cycle 1 focuses on the open-source **Non-Elective Flow Simulation**, a discrete-event simulation of patients moving from the emergency department into same-day emergency care or an inpatient bed. We will explore how bed capacity, length of stay and same-day emergency care activity affect queues and waiting times.
-
-Registration for this cycle covers both online sessions:
-
-- **Running the model:** 30 September 2026
-- **Reusing the model:** 28 October 2026
-
-[Sign up for Cycle 1]({{< var registration_forms.cycle_1 >}}){.btn .btn-primary target="_blank"}
-
-NOTE: THIS IS STILL DRAFT AND A WORK IN PROGRESS

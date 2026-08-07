@@ -17,13 +17,17 @@ ReModel will run in 2 monthly cycles, with each cycle focusing on a different si
 
 Each session will last for 1 hour, and will follow a participative discussion format.
 
-**Cost:** All sessions are free for NHS participants.
+The sessions are free to attend, but spaces will be capped at 15 places per session on a first-come, first-served basis; NHS analysts will receive priority.
 
 ## Register for ReModel
 
 You can sign up for one, several or all ReModel cycles. Each cycle focuses on one open simulation model and includes two linked sessions: **Running** and **Reusing**. Registration for a cycle covers both sessions in that cycle.
 
 ### Cycle 1: Non-Elective Flow Simulation
+
+Cycle 1 focuses on the open-source **Non-Elective Flow Simulation**, a discrete-event simulation of patients moving from the emergency department into same-day emergency care or an inpatient bed. We will explore how bed capacity, length of stay and same-day emergency care activity affect queues and waiting times.
+
+Registration for this cycle covers both online sessions:
 
 - **Running the model:** 30 September 2026
 - **Reusing the model:** 28 October 2026
@@ -32,12 +36,20 @@ You can sign up for one, several or all ReModel cycles. Each cycle focuses on on
 
 ### Cycle 2: Meeting the demand of NHS 111 for primary care services
 
+Cycle 2 focuses on **MOOOD**, an open-source discrete-event simulation that follows callers after an NHS 111 primary-care disposition and models their subsequent contact with primary care, NHS 111, ambulance services and emergency departments. We will explore how timely primary-care contact affects activity across services and potentially avoidable emergency department attendance.
+
+Registration for this cycle covers both online sessions:
+
 - **Running the model:** 25 November 2026
 - **Reusing the model:** 6 January 2027
 
 [Sign up for Cycle 2]({{< var registration_forms.cycle_2 >}}){.btn .btn-primary target="_blank"}
 
 ### Cycle 3: The Value of Triage during Periods of Intense COVID-19 Demand
+
+Cycle 3 focuses on an **open R simulation of intensive-care triage during periods of intense COVID-19 demand**. We will explore how first-come, first-served admission, demand-based triage and reverse triage interact with demand, length of stay and capacity, and affect lives and life-years lost.
+
+Registration for this cycle covers both online sessions:
 
 - **Running the model:** 27 January 2027
 - **Reusing the model:** 24 February 2027
