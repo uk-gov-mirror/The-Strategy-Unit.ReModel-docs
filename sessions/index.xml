@@ -9,10 +9,10 @@
 <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/</link>
 <atom:link href="https://the-strategy-unit.github.io/ReModel-docs/sessions/index.xml" rel="self" type="application/rss+xml"/>
 <description>A website to support ReModel: Read, Run, Reuse Open Simulation Models</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Wed, 24 Feb 2027 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study: Reusing</title>
+  <title>Reusing: The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/6_triage-during-intense-demand-reusing/</link>
   <description><![CDATA[ 
@@ -66,7 +66,7 @@
   <pubDate>Wed, 24 Feb 2027 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study: Running</title>
+  <title>Running: The Value of Triage during Periods of Intense COVID-19 Demand: Simulation Modeling Study</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/5_triage-during-intense-demand-running/</link>
   <description><![CDATA[ 
@@ -119,7 +119,7 @@
   <pubDate>Wed, 27 Jan 2027 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Meeting the demand of 111 for primary care services: Reusing</title>
+  <title>Reusing: Meeting the demand of 111 for primary care services</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/4_primary-demand-111-reusing/</link>
   <description><![CDATA[ 
@@ -175,7 +175,7 @@
   <pubDate>Wed, 06 Jan 2027 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Meeting the demand of 111 for primary care services: Running</title>
+  <title>Running: Meeting the demand of 111 for primary care services</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/3_primary-demand-111-running/</link>
   <description><![CDATA[ 
@@ -228,7 +228,7 @@
   <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Nonelective Flow DES Model: Reusing</title>
+  <title>Reusing: Nonelective Flow DES</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/2_nonelective-flow-reusing/</link>
   <description><![CDATA[ 
@@ -282,7 +282,7 @@
   <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Nonelective Flow DES Model: Running</title>
+  <title>Running: Nonelective Flow DES</title>
   <dc:creator>Dr Lucy Morgan</dc:creator>
   <link>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow-running/</link>
   <description><![CDATA[ 
