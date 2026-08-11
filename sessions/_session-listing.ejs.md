@@ -9,6 +9,19 @@
 
 <% if (startsCycle) { %>
 <h2 class="session-cycle-heading no-anchor"><%= item.cycle %></h2>
+<% if (item.description) { %>
+
+```{=html}
+<div class="delink session-cycle-description">
+```
+
+<%= item.description %>
+
+```{=html}
+</div>
+```
+
+<% } %>
 <% } %>
 
 ::: {.body}
@@ -26,20 +39,6 @@
 <% for (const category of item.categories) { %>
 <div class="listing-category" onclick="window.quartoListingCategory('<%= utils.b64encode(category) %>'); return false;"><%= category %></div>
 <% } %>
-</div>
-```
-
-<% } %>
-
-<% if (item.description) { %>
-
-```{=html}
-<div class="delink listing-description">
-```
-
-<%= item.description %>
-
-```{=html}
 </div>
 ```
 

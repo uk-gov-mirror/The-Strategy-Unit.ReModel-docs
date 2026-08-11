@@ -11,6 +11,8 @@ toc: true
 
 This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.
 
+[How to join](../../join-us/index.qmd){.btn .btn-primary .session-join-action}
+
 ## Session objectives and outline
 
 This session will consider whether participants understand the model well enough to reuse it. Participants will:

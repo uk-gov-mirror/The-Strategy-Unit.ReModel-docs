@@ -1,7 +1,7 @@
 ---
 title: "Running: Nonelective Flow DES"
 author: Dr Lucy Morgan
-date: "2026-09-30"
+date: "2026-10-07"
 cycle: "Cycle 1: Non-Elective Flow Simulation"
 categories: [DES]
 toc: true
@@ -10,6 +10,8 @@ toc: true
 # Model overview
 
 The **Non-Elective Flow Simulation** is an open-source discrete-event simulation developed by Helena Robinson at Countess of Chester Hospital NHS Foundation Trust. It represents patients moving from the emergency department into SDEC or an inpatient bed and explores how bed capacity, admitted length of stay and SDEC activity affect queues and waiting times. The model is written in Python using SimPy and includes a Streamlit interface.
+
+[How to join](../../join-us/index.qmd){.btn .btn-primary .session-join-action}
 
 ## Session objectives and outline
 
