@@ -37,7 +37,7 @@ The aim is for participants to be able to identify an input assumption they woul
 
 ## Additional resources
 
-- [GitHub repository](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation) — source code and repository documentation.
+- [GitHub repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation) — source code and repository documentation.
 - [Project presentation slides](https://drive.google.com/file/d/1BIUDaDfDp2cj6EF19908XQ4eB7h9GMCp/view) — background to the model and its intended use.
 - [HSMA showcase presentation](https://youtu.be/0DUx5hhxjoA) — recorded project presentation.
 - [Vidigi paper](https://doi.org/10.1080/17477778.2026.2663849) — related work on animated visualisation of discrete-event simulation models, using this model as an application example.

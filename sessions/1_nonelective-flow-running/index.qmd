@@ -30,12 +30,12 @@ The aim is for participants to leave with a local copy of the repository, a work
 ## Actions for participants before the session
 
 - Bring a laptop on which you can use GitHub and install or run Python.
-- Clone or download the [model repository](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation).
+- Clone or download the [model repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation).
 - Follow the repository's current environment instructions as far as you can. Make a note of any errors so these can be discussed during the session.
 - If time allows, try the browser-based [Streamlit application](https://non-elective-flow-simulation-coch.streamlit.app/).
 
 ## Additional resources
 
-- [GitHub repository](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation) — model code, application and environment files.
+- [GitHub repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation) — model code, application and environment files.
 - [Interactive Streamlit application](https://non-elective-flow-simulation-coch.streamlit.app/) — run scenarios without a local installation.
 - [HSMA project overview](https://hsma.co.uk/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html) — project background and links to the code, application and presentation material.
