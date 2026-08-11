@@ -270,16 +270,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sessions/index.html"> 
+<span class="menu-text">Cycle Details</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../join-us/index.html"> 
 <span class="menu-text">Join us</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../sessions/index.html"> 
-<span class="menu-text">Sessions</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -366,6 +366,38 @@ ul.task-list li input[type="checkbox"] {
 <h1>Model overview</h1>
 <p><strong>MOOOD</strong> is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.</p>
 <p>The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.</p>
+<p><a href="../../join-us/index.html" class="btn btn-primary session-join-action">How to join</a></p>
+<div class="all-sessions-menu">
+<div class="all-sessions-title">
+All sessions
+</div>
+<ul>
+<li><a href="../../sessions/1_nonelective-flow-running/index.html">Cycle 1: Running Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/2_nonelective-flow-reusing/index.html">Cycle 1: Reusing Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/3_primary-demand-111-running/index.html">Cycle 2: Running NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/4_primary-demand-111-reusing/index.html">Cycle 2: Reusing NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/5_triage-during-intense-demand-running/index.html">Cycle 3: Running triage during intense COVID-19 demand</a></li>
+<li><a href="../../sessions/6_triage-during-intense-demand-reusing/index.html">Cycle 3: Reusing triage during intense COVID-19 demand</a></li>
+</ul>
+</div>
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
 <p>This session will focus on obtaining the code and running the existing analysis. Participants will:</p>

@@ -24,6 +24,38 @@
 <section id="model-overview" class="level1">
 <h1>Model overview</h1>
 <p>This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.</p>
+<p><a href="../../join-us/index.html" class="btn btn-primary session-join-action">How to join</a></p>
+<div class="all-sessions-menu">
+<div class="all-sessions-title">
+All sessions
+</div>
+<ul>
+<li><a href="../../sessions/1_nonelective-flow-running/index.html">Cycle 1: Running Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/2_nonelective-flow-reusing/index.html">Cycle 1: Reusing Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/3_primary-demand-111-running/index.html">Cycle 2: Running NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/4_primary-demand-111-reusing/index.html">Cycle 2: Reusing NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/5_triage-during-intense-demand-running/index.html">Cycle 3: Running triage during intense COVID-19 demand</a></li>
+<li><a href="../../sessions/6_triage-during-intense-demand-reusing/index.html">Cycle 3: Reusing triage during intense COVID-19 demand</a></li>
+</ul>
+</div>
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
 <p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
@@ -78,6 +110,38 @@
 <section id="model-overview" class="level1">
 <h1>Model overview</h1>
 <p>This open R simulation by Wood and colleagues examines hypothetical intensive-care triage strategies when COVID-19 demand might exceed capacity. It compares first-come, first-served admission, triage when demand is expressed and reverse triage. Inputs include demand, length of stay, capacity and assumptions about patient outcomes; outputs include lives and life-years lost. The model has been independently reproduced through the STARS project.</p>
+<p><a href="../../join-us/index.html" class="btn btn-primary session-join-action">How to join</a></p>
+<div class="all-sessions-menu">
+<div class="all-sessions-title">
+All sessions
+</div>
+<ul>
+<li><a href="../../sessions/1_nonelective-flow-running/index.html">Cycle 1: Running Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/2_nonelective-flow-reusing/index.html">Cycle 1: Reusing Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/3_primary-demand-111-running/index.html">Cycle 2: Running NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/4_primary-demand-111-reusing/index.html">Cycle 2: Reusing NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/5_triage-during-intense-demand-running/index.html">Cycle 3: Running triage during intense COVID-19 demand</a></li>
+<li><a href="../../sessions/6_triage-during-intense-demand-reusing/index.html">Cycle 3: Reusing triage during intense COVID-19 demand</a></li>
+</ul>
+</div>
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
 <p>This session will focus on obtaining the original code and running a defined part of the analysis. Participants will:</p>
@@ -132,6 +196,38 @@
 <h1>Model overview</h1>
 <p><strong>MOOOD</strong> is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.</p>
 <p>The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.</p>
+<p><a href="../../join-us/index.html" class="btn btn-primary session-join-action">How to join</a></p>
+<div class="all-sessions-menu">
+<div class="all-sessions-title">
+All sessions
+</div>
+<ul>
+<li><a href="../../sessions/1_nonelective-flow-running/index.html">Cycle 1: Running Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/2_nonelective-flow-reusing/index.html">Cycle 1: Reusing Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/3_primary-demand-111-running/index.html">Cycle 2: Running NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/4_primary-demand-111-reusing/index.html">Cycle 2: Reusing NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/5_triage-during-intense-demand-running/index.html">Cycle 3: Running triage during intense COVID-19 demand</a></li>
+<li><a href="../../sessions/6_triage-during-intense-demand-reusing/index.html">Cycle 3: Reusing triage during intense COVID-19 demand</a></li>
+</ul>
+</div>
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
 <p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
@@ -188,6 +284,38 @@
 <h1>Model overview</h1>
 <p><strong>MOOOD</strong> is an open-source discrete-event simulation developed by Richard Pilbery and colleagues. It follows callers after an NHS 111 primary-care disposition and represents subsequent contact with primary care, NHS 111, ambulance services and emergency departments. The Python and SimPy model compares the existing system with timely primary-care contact and reports activity across services and avoidable ED attendance.</p>
 <p>The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.</p>
+<p><a href="../../join-us/index.html" class="btn btn-primary session-join-action">How to join</a></p>
+<div class="all-sessions-menu">
+<div class="all-sessions-title">
+All sessions
+</div>
+<ul>
+<li><a href="../../sessions/1_nonelective-flow-running/index.html">Cycle 1: Running Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/2_nonelective-flow-reusing/index.html">Cycle 1: Reusing Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/3_primary-demand-111-running/index.html">Cycle 2: Running NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/4_primary-demand-111-reusing/index.html">Cycle 2: Reusing NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/5_triage-during-intense-demand-running/index.html">Cycle 3: Running triage during intense COVID-19 demand</a></li>
+<li><a href="../../sessions/6_triage-during-intense-demand-reusing/index.html">Cycle 3: Reusing triage during intense COVID-19 demand</a></li>
+</ul>
+</div>
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
 <p>This session will focus on obtaining the code and running the existing analysis. Participants will:</p>
@@ -240,6 +368,38 @@
 <section id="model-overview" class="level1">
 <h1>Model overview</h1>
 <p>The <strong>Non-Elective Flow Simulation</strong> is an open-source discrete-event simulation developed by Helena Robinson at Countess of Chester Hospital NHS Foundation Trust. It represents patients moving from the emergency department into SDEC or an inpatient bed and explores how bed capacity, admitted length of stay and SDEC activity affect queues and waiting times. The model is written in Python using SimPy and includes a Streamlit interface.</p>
+<p><a href="../../join-us/index.html" class="btn btn-primary session-join-action">How to join</a></p>
+<div class="all-sessions-menu">
+<div class="all-sessions-title">
+All sessions
+</div>
+<ul>
+<li><a href="../../sessions/1_nonelective-flow-running/index.html">Cycle 1: Running Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/2_nonelective-flow-reusing/index.html">Cycle 1: Reusing Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/3_primary-demand-111-running/index.html">Cycle 2: Running NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/4_primary-demand-111-reusing/index.html">Cycle 2: Reusing NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/5_triage-during-intense-demand-running/index.html">Cycle 3: Running triage during intense COVID-19 demand</a></li>
+<li><a href="../../sessions/6_triage-during-intense-demand-reusing/index.html">Cycle 3: Reusing triage during intense COVID-19 demand</a></li>
+</ul>
+</div>
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
 <p>This session will consider whether participants understand the model well enough to reuse it. Participants will:</p>
@@ -294,6 +454,38 @@
 <section id="model-overview" class="level1">
 <h1>Model overview</h1>
 <p>The <strong>Non-Elective Flow Simulation</strong> is an open-source discrete-event simulation developed by Helena Robinson at Countess of Chester Hospital NHS Foundation Trust. It represents patients moving from the emergency department into SDEC or an inpatient bed and explores how bed capacity, admitted length of stay and SDEC activity affect queues and waiting times. The model is written in Python using SimPy and includes a Streamlit interface.</p>
+<p><a href="../../join-us/index.html" class="btn btn-primary session-join-action">How to join</a></p>
+<div class="all-sessions-menu">
+<div class="all-sessions-title">
+All sessions
+</div>
+<ul>
+<li><a href="../../sessions/1_nonelective-flow-running/index.html">Cycle 1: Running Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/2_nonelective-flow-reusing/index.html">Cycle 1: Reusing Non-Elective Flow DES</a></li>
+<li><a href="../../sessions/3_primary-demand-111-running/index.html">Cycle 2: Running NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/4_primary-demand-111-reusing/index.html">Cycle 2: Reusing NHS 111 primary care DES</a></li>
+<li><a href="../../sessions/5_triage-during-intense-demand-running/index.html">Cycle 3: Running triage during intense COVID-19 demand</a></li>
+<li><a href="../../sessions/6_triage-during-intense-demand-reusing/index.html">Cycle 3: Reusing triage during intense COVID-19 demand</a></li>
+</ul>
+</div>
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
 <section id="session-objectives-and-outline" class="level2">
 <h2 class="anchored" data-anchor-id="session-objectives-and-outline">Session objectives and outline</h2>
 <p>This session will focus on obtaining the code and running the model as it currently exists. Participants will:</p>
@@ -330,7 +522,7 @@
  ]]></description>
   <category>DES</category>
   <guid>https://the-strategy-unit.github.io/ReModel-docs/sessions/1_nonelective-flow-running/</guid>
-  <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

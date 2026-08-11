@@ -7,18 +7,31 @@
 
 .quarto-listing .quarto-post:has(> .session-cycle-heading) {
   flex-wrap: wrap;
+  column-gap: 2em;
+  row-gap: 0;
 }
 
 .quarto-listing .session-cycle-heading {
-  order: -1;
+  order: -2;
   flex: 0 0 100%;
-  margin: 0.75rem 0 1.25rem;
+  margin: 0.75rem 0 0;
   padding: 0.6rem 0.85rem;
   border-left: 0.4rem solid var(--color-primary);
   border-bottom: 1px solid var(--color-secondary);
   background-color: rgba(249, 189, 7, 0.12);
   color: var(--color-foreground);
   font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+}
+
+.quarto-listing .session-cycle-description {
+  order: -1;
+  flex: 0 0 100%;
+  margin: 0.5rem 0 0.75rem;
+  padding: 0;
+}
+
+.quarto-listing .session-cycle-description p {
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -41,4 +54,71 @@
     justify-self: end;
     width: 5.75rem;
   }
+}
+
+/* Place the session registration action beside the title metadata. */
+main.content:has(.session-join-action) {
+  position: relative;
+}
+
+.session-join-action {
+  position: absolute;
+  top: 4.875rem;
+  right: 1.5rem;
+  min-width: 9rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .session-join-action {
+    position: static;
+    margin: 0 0 1.5rem;
+  }
+}
+
+.all-sessions-menu {
+  display: none;
+}
+
+.all-sessions-menu.all-sessions-menu-ready {
+  display: block;
+  position: static;
+  width: auto;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--bs-border-color);
+  font-size: 0.9rem;
+}
+
+#TOC:has(> .all-sessions-menu) {
+  max-height: calc(100vh - 5rem);
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  scrollbar-width: thin;
+}
+
+.all-sessions-title {
+  margin: 0 0 0.5rem;
+  color: var(--bs-body-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.all-sessions-menu ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.all-sessions-menu li {
+  margin-bottom: 0.55rem;
+  line-height: 1.3;
+}
+
+.all-sessions-menu a,
+.all-sessions-menu a:hover,
+.all-sessions-menu a:focus {
+  color: var(--bs-link-color);
+  text-decoration: none;
 }
