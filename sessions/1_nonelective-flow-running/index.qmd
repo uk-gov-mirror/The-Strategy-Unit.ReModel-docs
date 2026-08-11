@@ -38,6 +38,10 @@ The aim is for participants to leave with a local copy of the repository, a work
 **This model uses Python.** To run it locally, you will need Python installed and will need to install the packages specified by the repository. You can use the hosted Streamlit application without installing Python.
 :::
 
+## Getting help
+
+If you have a problem running or reusing the Non-Elective Flow Simulation, [open an issue in the ReModel repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation/issues). This is the best way to contact the ReModel team about the model. Describe what you were trying to do, what happened and any error messages you received.
+
 ## Additional resources
 
 - [GitHub repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation) — model code, application and environment files.

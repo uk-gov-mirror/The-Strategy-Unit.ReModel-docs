@@ -40,6 +40,10 @@ The aim is for participants to leave with a local copy of the repository, a work
 **This model uses Python.** To run it locally, you will need Python installed and will need to set up the packages and environment described in the repository.
 :::
 
+## Getting help
+
+If you have a problem running or reusing MOOOD, the model's issue tracker will be the best way to contact the ReModel team. **Issue tracker link: [to be added].** When reporting a problem, describe what you were trying to do, what happened and any error messages you received.
+
 ## Additional resources
 
 - [GitHub repository](https://github.com/RichardPilbery/MOOOD-study) — model, application, tests, data and container configuration.

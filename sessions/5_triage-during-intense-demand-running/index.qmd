@@ -40,6 +40,10 @@ The aim is for participants to leave with a local copy of the repository, a work
 Tested setup instructions will be added here before the session.
 :::
 
+## Getting help
+
+If you have a problem running or reusing the intensive-care triage simulation, the model's issue tracker will be the best way to contact the ReModel team. **Issue tracker link: [to be added].** When reporting a problem, describe what you were trying to do, what happened and any error messages you received.
+
 ## Additional resources
 
 - [Original GitHub repository](https://github.com/nhs-bnssg-analytics/triage-modelling) — R model, inputs, analysis scripts and outputs.

@@ -39,6 +39,10 @@ The aim is for participants to be able to identify an assumption they would chan
 **This model uses R.** To run it locally, you will need R installed and will need to install the packages required by the repository. Older analytical environments may require specific package versions.
 :::
 
+## Getting help
+
+If you have a problem running or reusing the intensive-care triage simulation, the model's issue tracker will be the best way to contact the ReModel team. **Issue tracker link: [to be added].** When reporting a problem, describe what you were trying to do, what happened and any error messages you received.
+
 ## Additional resources
 
 - [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/evaluation/reproduction_report.html) — methods, reporting assessment, validation discussion and reproducibility log.
