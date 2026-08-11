@@ -13,6 +13,8 @@ The **Non-Elective Flow Simulation** is an open-source discrete-event simulation
 
 [How to join](../../join-us/index.qmd){.btn .btn-primary .session-join-action}
 
+{{< include ../_all-sessions.qmd >}}
+
 ## Session objectives and outline
 
 This session will focus on obtaining the code and running the model as it currently exists. Participants will:

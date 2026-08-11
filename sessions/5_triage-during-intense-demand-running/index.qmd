@@ -13,6 +13,8 @@ This open R simulation by Wood and colleagues examines hypothetical intensive-ca
 
 [How to join](../../join-us/index.qmd){.btn .btn-primary .session-join-action}
 
+{{< include ../_all-sessions.qmd >}}
+
 ## Session objectives and outline
 
 This session will focus on obtaining the original code and running a defined part of the analysis. Participants will:
