@@ -19,9 +19,11 @@ The original data and parameters relate to callers registered with Bradford and 
 
 ## Actions for participants before the session
 
-- Retain the working environment and editable repository from Session 1.
-- If you did not attend Session 1, confirm that you can complete a model run before this session.
-- Consider one input, pathway or service assumption you would change for your own analytical question.
+- Retain the working environment and editable repository from Session 1 (if you did not attend Session 1, confirm that you can complete a model run before this session).
+- Consider one assumption or feature you would change.
+- Make the change to the code.
+- Consider how you would test whether the change you have made has been successful.
+- If time permits, test the functionality of the code.
 
 ::: {.callout-warning title="Local software requirement"}
 **This model uses Python.** To run it locally, you will need Python installed and will need to set up the packages and environment described in the repository.
@@ -33,17 +35,14 @@ If you have a problem running or reusing MOOOD, the model's issue tracker will b
 
 ## Session objectives and outline
 
-This session will consider whether participants understand the model well enough to reuse it. Participants will:
+This will be a discussion session around our attempts to edit and reuse the model. Participants will discuss:
 
-- describe how they think the model is structured from input data through to outputs;
-- compare that understanding with the repository and SimPy implementation;
-- identify how patients, events, services and onward contacts are represented;
-- locate the assumptions controlling demand, pathways and service contact;
-- discuss what they would change for a different question, population or service;
-- trace a selected input assumption through the model to its effect on results; and
-- identify how a change would need to be tested, validated and documented.
+- what changes they made to the repository and how they went about doing it;
+- how they went about testing the change, or how they would plan to test the change they made;
+- how changes should be documented and integrated with existing documentation;
+- whether any changes to the repository would have made running or reusing the model easier.
 
-The aim is for participants to be able to identify an input or pathway assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.
+The aim is for participants to leave the session with a clear understanding of how to make changes to a repository and how to test that those changes work as intended.
 
 ## Additional resources
 

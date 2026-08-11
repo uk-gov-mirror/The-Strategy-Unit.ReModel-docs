@@ -19,10 +19,9 @@ The original data and parameters relate to callers registered with Bradford and 
 
 ## Actions for participants before the session
 
-- Bring a laptop on which you can use GitHub and install or run Python.
-- Clone or download the [MOOOD repository](https://github.com/RichardPilbery/MOOOD-study).
-- Follow the [generated documentation](https://richardpilbery.github.io/MOOOD-study/) and repository setup instructions as far as you can.
-- Read the abstract and strengths and limitations in the [BMJ Open paper](https://bmjopen.bmj.com/content/13/9/e076203).
+- Attempt to reproduce the model by using GitHub Codespaces (recommended for participants new to GitHub) or by cloning the [MOOOD repository](https://github.com/RichardPilbery/MOOOD-study) and running it locally; see the [repository README](https://github.com/RichardPilbery/MOOOD-study#readme) for the current build and run instructions.
+- Try the model's interactive application by following the [generated documentation](https://richardpilbery.github.io/MOOOD-study/).
+- Explore the repository and its structure.
 
 ::: {.callout-warning title="Local software requirement"}
 **This model uses Python.** To run it locally, you will need Python installed and will need to set up the packages and environment described in the repository.
@@ -34,15 +33,16 @@ If you have a problem running or reusing MOOOD, the model's issue tracker will b
 
 ## Session objectives and outline
 
-This session will focus on obtaining the code and running the existing analysis. Participants will:
+This will be a discussion session around the model and our attempts to run the model as it currently exists. Participants will discuss:
 
-- clone the GitHub repository and identify the main execution and documentation files;
-- create the Python environment and install the required dependencies;
-- run the model and, where appropriate, its interactive application;
-- reproduce an existing scenario and compare its behaviour with the published paper; and
-- explore the current inputs and outputs while accounting for stochastic variation.
+- any issues they had in running the model in its current form;
+- any areas of the model they didn't understand;
+- how we think the model is structured from inputs through to outputs;
+- how callers, services, contacts and events are represented;
+- assumptions for demand, care pathways, timely primary-care contact and subsequent service use;
+- where they think this model might be useful.
 
-The aim is for participants to leave with a local copy of the repository, a working environment and a successful model run that they can continue to explore.
+The aim is for participants to leave this session with a clear understanding of how to run the model and a working version of the model that they can continue to explore before the Reuse session.
 
 ## Additional resources
 

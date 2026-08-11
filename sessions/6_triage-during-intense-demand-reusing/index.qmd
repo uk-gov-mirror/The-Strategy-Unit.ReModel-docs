@@ -17,9 +17,11 @@ This open R simulation by Wood and colleagues examines hypothetical intensive-ca
 
 ## Actions for participants before the session
 
-- Retain the working R environment and editable repository from Session 1.
-- If you did not attend Session 1, confirm that you can complete the selected model run before this session.
-- Consider one input, rule or scenario you would change and why the change would be analytically useful.
+- Retain the working environment and editable repository from Session 1 (if you did not attend Session 1, confirm that you can complete a model run before this session).
+- Consider one assumption or feature you would change.
+- Make the change to the code.
+- Consider how you would test whether the change you have made has been successful.
+- If time permits, test the functionality of the code.
 
 ::: {.callout-warning title="Local software requirement"}
 **This model uses R.** To run it locally, you will need R installed and will need to install the packages required by the repository. Older analytical environments may require specific package versions.
@@ -31,17 +33,14 @@ If you have a problem running or reusing the intensive-care triage simulation, t
 
 ## Session objectives and outline
 
-This session will consider whether participants understand the model well enough to reuse it. Participants will:
+This will be a discussion session around our attempts to edit and reuse the model. Participants will discuss:
 
-- describe how they think the model is structured from patient inputs through to reported outcomes;
-- compare that understanding with the R scripts and simulation implementation;
-- identify how arrivals, length of stay, capacity and triage rules are represented;
-- locate the data and assumptions controlling the supplied scenarios;
-- discuss what they would change for a different question or use case;
-- trace a selected input assumption through the code to a published output; and
-- use the reproduction evidence to identify how a change should be checked, validated and documented.
+- what changes they made to the repository and how they went about doing it;
+- how they went about testing the change, or how they would plan to test the change they made;
+- how changes should be documented and integrated with existing documentation;
+- whether any changes to the repository would have made running or reusing the model easier.
 
-The aim is for participants to be able to identify an assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.
+The aim is for participants to leave the session with a clear understanding of how to make changes to a repository and how to test that those changes work as intended.
 
 ## Additional resources
 

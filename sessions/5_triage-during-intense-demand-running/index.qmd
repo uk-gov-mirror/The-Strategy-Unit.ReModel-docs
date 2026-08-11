@@ -17,10 +17,9 @@ This open R simulation by Wood and colleagues examines hypothetical intensive-ca
 
 ## Actions for participants before the session
 
-- Bring a laptop with R and Git installed.
-- Clone or download the [original model repository](https://github.com/nhs-bnssg-analytics/triage-modelling).
-- Review the [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/evaluation/reproduction_report.html).
-- Read the [paper abstract](https://pubmed.ncbi.nlm.nih.gov/33560181/) or the shorter [HDR UK case study](https://www.hdruk.ac.uk/case-studies/impact-committee-selection-the-value-of-triage-during-periods-of-intense-covid-19-demand-simulation-modelling-study/).
+- Attempt to reproduce the model by using GitHub Codespaces (recommended for participants new to GitHub) or by cloning the [original model repository](https://github.com/nhs-bnssg-analytics/triage-modelling) and running it locally.
+- Run one of the supplied R analysis scripts and inspect the resulting output.
+- Explore the repository and its structure.
 
 ::: {.callout-warning title="Local software requirement"}
 **This model uses R.** To run it locally, you will need R installed and will need to install the packages required by the repository. Older analytical environments may require specific package versions.
@@ -34,15 +33,16 @@ If you have a problem running or reusing the intensive-care triage simulation, t
 
 ## Session objectives and outline
 
-This session will focus on obtaining the original code and running a defined part of the analysis. Participants will:
+This will be a discussion session around the model and our attempts to run the model as it currently exists. Participants will discuss:
 
-- clone the original GitHub repository and identify the main R scripts, inputs and outputs;
-- establish an environment in which a defined part of the analysis will run;
-- reproduce an existing scenario, table or figure;
-- compare their run with the paper and independent reproduction; and
-- explore the existing demand, capacity and triage scenarios with appropriate caution.
+- any issues they had in running the model in its current form;
+- any areas of the model they didn't understand;
+- how we think the model is structured from inputs through to outputs;
+- how patient groups, ICU admission, capacity constraints and triage decisions are represented;
+- assumptions for demand, length of stay, capacity and patient outcomes;
+- where they think this model might be useful.
 
-The aim is for participants to leave with a local copy of the repository, a working environment and a successful run of a defined part of the analysis.
+The aim is for participants to leave this session with a clear understanding of how to run the model and a working version of the model that they can continue to explore before the Reuse session.
 
 ## Additional resources
 
