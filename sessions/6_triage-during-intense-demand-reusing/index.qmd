@@ -3,7 +3,7 @@ title: "Reusing: The Value of Triage during Periods of Intense COVID-19 Demand: 
 author: Dr Lucy Morgan
 date: "2027-02-24"
 cycle: "Cycle 3: The Value of Triage during Periods of Intense COVID-19 Demand"
-categories: [DES]
+categories: [DES, R]
 toc: true
 ---
 

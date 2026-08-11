@@ -3,7 +3,7 @@ title: "Reusing: Nonelective Flow DES"
 author: Dr Lucy Morgan
 date: "2026-10-28"
 cycle: "Cycle 1: Non-Elective Flow Simulation"
-categories: [DES]
+categories: [DES, Python]
 toc: true
 ---
 
