@@ -31,7 +31,7 @@ The aim is for participants to leave with a local copy of the repository, a work
 
 - Bring a laptop with R and Git installed.
 - Clone or download the [original model repository](https://github.com/nhs-bnssg-analytics/triage-modelling).
-- Review the [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/).
+- Review the [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/evaluation/reproduction_report.html).
 - Read the [paper abstract](https://pubmed.ncbi.nlm.nih.gov/33560181/) or the shorter [HDR UK case study](https://www.hdruk.ac.uk/case-studies/impact-committee-selection-the-value-of-triage-during-periods-of-intense-covid-19-demand-simulation-modelling-study/).
 
 Older analytical environments can require specific package versions. Tested setup instructions will be added here before the session.

@@ -37,7 +37,7 @@ The aim is for participants to be able to identify an assumption they would chan
 
 ## Additional resources
 
-- [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/) — methods, reporting assessment, validation discussion and reproducibility log.
+- [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/evaluation/reproduction_report.html) — methods, reporting assessment, validation discussion and reproducibility log.
 - [STARS reproduction repository](https://github.com/pythonhealthdatascience/stars-reproduce-wood-2021) — independently recreated code and supporting material.
 - [Archived reproduction](https://doi.org/10.5281/zenodo.13881986) — citable snapshot of the reproducibility assessment.
 - [Reproduction protocol](https://doi.org/10.5281/zenodo.12179846) — protocol used to structure the assessment.
