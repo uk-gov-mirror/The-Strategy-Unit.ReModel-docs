@@ -27,9 +27,9 @@ You can sign up for one, several or all ReModel cycles. Each cycle focuses on on
 
 Cycle 1 focuses on the open-source **Non-Elective Flow Simulation**, a discrete-event simulation of patients moving from the emergency department into same-day emergency care or an inpatient bed. We will explore how bed capacity, length of stay and same-day emergency care activity affect queues and waiting times.
 
-Registration for this cycle covers both online sessions:
+Registration for this cycle covers both online sessions and will open on **13 August 2026** and close on **2 October 2026**:
 
-- **Running the model:** 30 September 2026
+- **Running the model:** 7 October 2026
 - **Reusing the model:** 28 October 2026
 
 [Sign up for Cycle 1]({{< var registration_forms.cycle_1 >}}){.btn .btn-primary target="_blank"}
@@ -38,7 +38,7 @@ Registration for this cycle covers both online sessions:
 
 Cycle 2 focuses on **MOOOD**, an open-source discrete-event simulation that follows callers after an NHS 111 primary-care disposition and models their subsequent contact with primary care, NHS 111, ambulance services and emergency departments. We will explore how timely primary-care contact affects activity across services and potentially avoidable emergency department attendance.
 
-Registration for this cycle covers both online sessions:
+Registration for this cycle covers both online sessions and will open on **[insert date]** and close on **[insert date]**:
 
 - **Running the model:** 25 November 2026
 - **Reusing the model:** 6 January 2027
@@ -49,7 +49,7 @@ Registration for this cycle covers both online sessions:
 
 Cycle 3 focuses on an **open R simulation of intensive-care triage during periods of intense COVID-19 demand**. We will explore how first-come, first-served admission, demand-based triage and reverse triage interact with demand, length of stay and capacity, and affect lives and life-years lost.
 
-Registration for this cycle covers both online sessions:
+Registration for this cycle covers both online sessions and will open on **[insert date]** and close on **[insert date]**:
 
 - **Running the model:** 27 January 2027
 - **Reusing the model:** 24 February 2027

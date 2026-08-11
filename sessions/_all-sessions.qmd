@@ -1,0 +1,31 @@
+::: {.all-sessions-menu}
+<div class="all-sessions-title">All sessions</div>
+
+- [Cycle 1: Running Non-Elective Flow DES](../1_nonelective-flow-running/index.qmd)
+- [Cycle 1: Reusing Non-Elective Flow DES](../2_nonelective-flow-reusing/index.qmd)
+- [Cycle 2: Running NHS 111 primary care DES](../3_primary-demand-111-running/index.qmd)
+- [Cycle 2: Reusing NHS 111 primary care DES](../4_primary-demand-111-reusing/index.qmd)
+- [Cycle 3: Running triage during intense COVID-19 demand](../5_triage-during-intense-demand-running/index.qmd)
+- [Cycle 3: Reusing triage during intense COVID-19 demand](../6_triage-during-intense-demand-reusing/index.qmd)
+:::
+
+```{=html}
+<script>
+(() => {
+  const moveAllSessionsMenu = () => {
+    const menu = document.querySelector(".all-sessions-menu");
+    const contents = document.querySelector("#TOC");
+
+    if (!menu) return;
+    if (contents) contents.appendChild(menu);
+    menu.classList.add("all-sessions-menu-ready");
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveAllSessionsMenu);
+  } else {
+    moveAllSessionsMenu();
+  }
+})();
+</script>
+```

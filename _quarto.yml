@@ -8,11 +8,11 @@ website:
   navbar:
     left:
       - text: About
-        file: about.qmd
+        file: index.qmd
+      - href: sessions/index.qmd
+        text: Cycle Details
       - text: Join us
         file: join-us/index.qmd
-      - href: sessions/index.qmd
-        text: Sessions
     right:
       - icon: rss
         href: sessions/index.xml

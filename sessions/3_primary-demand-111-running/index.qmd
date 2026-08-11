@@ -13,6 +13,10 @@ toc: true
 
 The original data and parameters relate to callers registered with Bradford and Airedale GP practices, so reuse elsewhere requires local review and validation.
 
+[How to join](../../join-us/index.qmd){.btn .btn-primary .session-join-action}
+
+{{< include ../_all-sessions.qmd >}}
+
 ## Session objectives and outline
 
 This session will focus on obtaining the code and running the existing analysis. Participants will:
