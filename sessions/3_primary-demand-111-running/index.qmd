@@ -17,18 +17,6 @@ The original data and parameters relate to callers registered with Bradford and 
 
 {{< include ../_all-sessions.qmd >}}
 
-## Session objectives and outline
-
-This session will focus on obtaining the code and running the existing analysis. Participants will:
-
-- clone the GitHub repository and identify the main execution and documentation files;
-- create the Python environment and install the required dependencies;
-- run the model and, where appropriate, its interactive application;
-- reproduce an existing scenario and compare its behaviour with the published paper; and
-- explore the current inputs and outputs while accounting for stochastic variation.
-
-The aim is for participants to leave with a local copy of the repository, a working environment and a successful model run that they can continue to explore.
-
 ## Actions for participants before the session
 
 - Bring a laptop on which you can use GitHub and install or run Python.
@@ -43,6 +31,18 @@ The aim is for participants to leave with a local copy of the repository, a work
 ## Getting help
 
 If you have a problem running or reusing MOOOD, the model's issue tracker will be the best way to contact the ReModel team. **Issue tracker link: [to be added].** When reporting a problem, describe what you were trying to do, what happened and any error messages you received.
+
+## Session objectives and outline
+
+This session will focus on obtaining the code and running the existing analysis. Participants will:
+
+- clone the GitHub repository and identify the main execution and documentation files;
+- create the Python environment and install the required dependencies;
+- run the model and, where appropriate, its interactive application;
+- reproduce an existing scenario and compare its behaviour with the published paper; and
+- explore the current inputs and outputs while accounting for stochastic variation.
+
+The aim is for participants to leave with a local copy of the repository, a working environment and a successful model run that they can continue to explore.
 
 ## Additional resources
 

@@ -15,20 +15,6 @@ The **Non-Elective Flow Simulation** is an open-source discrete-event simulation
 
 {{< include ../_all-sessions.qmd >}}
 
-## Session objectives and outline
-
-This session will consider whether participants understand the model well enough to reuse it. Participants will:
-
-- describe how they think the model is structured from inputs through to outputs;
-- compare that understanding with the repository and SimPy implementation;
-- identify how patients, queues, resources and events are represented;
-- locate assumptions for arrivals, length of stay, capacity and SDEC activity;
-- discuss what they would change for a different question, service or local setting;
-- trace a selected input assumption through the model to its effect on outputs; and
-- identify how a change would need to be tested, validated and documented.
-
-The aim is for participants to be able to identify an input assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.
-
 ## Actions for participants before the session
 
 - Retain the working environment and editable repository from Session 1.
@@ -42,6 +28,20 @@ The aim is for participants to be able to identify an input assumption they woul
 ## Getting help
 
 If you have a problem running or reusing the Non-Elective Flow Simulation, [open an issue in the ReModel repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation/issues). This is the best way to contact the ReModel team about the model. Describe what you were trying to do, what happened and any error messages you received.
+
+## Session objectives and outline
+
+This session will consider whether participants understand the model well enough to reuse it. Participants will:
+
+- describe how they think the model is structured from inputs through to outputs;
+- compare that understanding with the repository and SimPy implementation;
+- identify how patients, queues, resources and events are represented;
+- locate assumptions for arrivals, length of stay, capacity and SDEC activity;
+- discuss what they would change for a different question, service or local setting;
+- trace a selected input assumption through the model to its effect on outputs; and
+- identify how a change would need to be tested, validated and documented.
+
+The aim is for participants to be able to identify an input assumption they would change, locate it in the model and assess whether they understand the implementation well enough to make the change confidently.
 
 ## Additional resources
 

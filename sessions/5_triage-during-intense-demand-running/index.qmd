@@ -15,18 +15,6 @@ This open R simulation by Wood and colleagues examines hypothetical intensive-ca
 
 {{< include ../_all-sessions.qmd >}}
 
-## Session objectives and outline
-
-This session will focus on obtaining the original code and running a defined part of the analysis. Participants will:
-
-- clone the original GitHub repository and identify the main R scripts, inputs and outputs;
-- establish an environment in which a defined part of the analysis will run;
-- reproduce an existing scenario, table or figure;
-- compare their run with the paper and independent reproduction; and
-- explore the existing demand, capacity and triage scenarios with appropriate caution.
-
-The aim is for participants to leave with a local copy of the repository, a working environment and a successful run of a defined part of the analysis.
-
 ## Actions for participants before the session
 
 - Bring a laptop with R and Git installed.
@@ -43,6 +31,18 @@ Tested setup instructions will be added here before the session.
 ## Getting help
 
 If you have a problem running or reusing the intensive-care triage simulation, the model's issue tracker will be the best way to contact the ReModel team. **Issue tracker link: [to be added].** When reporting a problem, describe what you were trying to do, what happened and any error messages you received.
+
+## Session objectives and outline
+
+This session will focus on obtaining the original code and running a defined part of the analysis. Participants will:
+
+- clone the original GitHub repository and identify the main R scripts, inputs and outputs;
+- establish an environment in which a defined part of the analysis will run;
+- reproduce an existing scenario, table or figure;
+- compare their run with the paper and independent reproduction; and
+- explore the existing demand, capacity and triage scenarios with appropriate caution.
+
+The aim is for participants to leave with a local copy of the repository, a working environment and a successful run of a defined part of the analysis.
 
 ## Additional resources
 
