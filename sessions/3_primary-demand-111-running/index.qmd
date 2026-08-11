@@ -36,6 +36,10 @@ The aim is for participants to leave with a local copy of the repository, a work
 - Follow the [generated documentation](https://richardpilbery.github.io/MOOOD-study/) and repository setup instructions as far as you can.
 - Read the abstract and strengths and limitations in the [BMJ Open paper](https://bmjopen.bmj.com/content/13/9/e076203).
 
+::: {.callout-warning title="Local software requirement"}
+**This model uses Python.** To run it locally, you will need Python installed and will need to set up the packages and environment described in the repository.
+:::
+
 ## Additional resources
 
 - [GitHub repository](https://github.com/RichardPilbery/MOOOD-study) — model, application, tests, data and container configuration.

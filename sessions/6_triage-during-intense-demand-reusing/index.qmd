@@ -35,6 +35,10 @@ The aim is for participants to be able to identify an assumption they would chan
 - If you did not attend Session 1, confirm that you can complete the selected model run before this session.
 - Consider one input, rule or scenario you would change and why the change would be analytically useful.
 
+::: {.callout-warning title="Local software requirement"}
+**This model uses R.** To run it locally, you will need R installed and will need to install the packages required by the repository. Older analytical environments may require specific package versions.
+:::
+
 ## Additional resources
 
 - [STARS reproduction website](https://pythonhealthdatascience.github.io/stars-reproduce-wood-2021/evaluation/reproduction_report.html) — methods, reporting assessment, validation discussion and reproducibility log.

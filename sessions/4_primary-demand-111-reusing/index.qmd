@@ -37,6 +37,10 @@ The aim is for participants to be able to identify an input or pathway assumptio
 - If you did not attend Session 1, confirm that you can complete a model run before this session.
 - Consider one input, pathway or service assumption you would change for your own analytical question.
 
+::: {.callout-warning title="Local software requirement"}
+**This model uses Python.** To run it locally, you will need Python installed and will need to set up the packages and environment described in the repository.
+:::
+
 ## Additional resources
 
 - [GitHub repository](https://github.com/RichardPilbery/MOOOD-study) — source code, tests and configuration.

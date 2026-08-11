@@ -34,6 +34,10 @@ The aim is for participants to leave with a local copy of the repository, a work
 - Follow the repository's current environment instructions as far as you can. Make a note of any errors so these can be discussed during the session.
 - If time allows, try the browser-based [Streamlit application](https://non-elective-flow-simulation-coch.streamlit.app/).
 
+::: {.callout-warning title="Local software requirement"}
+**This model uses Python.** To run it locally, you will need Python installed and will need to install the packages specified by the repository. You can use the hosted Streamlit application without installing Python.
+:::
+
 ## Additional resources
 
 - [GitHub repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation) — model code, application and environment files.

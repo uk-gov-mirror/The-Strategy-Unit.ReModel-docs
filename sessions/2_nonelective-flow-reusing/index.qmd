@@ -35,6 +35,10 @@ The aim is for participants to be able to identify an input assumption they woul
 - If you did not attend Session 1, confirm that you can complete a model run before this session.
 - Consider one assumption or feature you would change for your own service or analytical question.
 
+::: {.callout-warning title="Local software requirement"}
+**This model uses Python.** To run it locally, you will need Python installed and will need to install the packages specified by the repository. You can use the hosted Streamlit application without installing Python.
+:::
+
 ## Additional resources
 
 - [GitHub repository](https://github.com/ReModel-Club/Non-Elective-Flow-Simulation) — source code and repository documentation.
