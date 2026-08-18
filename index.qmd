@@ -1,5 +1,5 @@
 ---
-title: "About ReModel"
+title: "ReModel: Read, Run, Reuse"
 image: images/logo_yellow.svg
 page-layout: full
 aliases:
